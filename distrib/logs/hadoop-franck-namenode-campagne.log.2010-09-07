@@ -1,0 +1,81 @@
+2010-09-07 18:19:54,183 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 18:20:15,027 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:25:17,846 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:30:17,846 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:34:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 18:35:17,847 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:40:17,847 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:45:17,848 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:49:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 18:50:17,848 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 18:55:17,848 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:00:17,849 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:04:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 19:05:17,849 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:10:17,850 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:15:17,851 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:19:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 19:20:17,851 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:25:17,852 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:30:17,852 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:34:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 19:35:17,852 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:40:17,853 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:45:17,853 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:49:55,078 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 19:50:17,854 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 19:55:17,854 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:00:17,855 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:05:17,855 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:10:17,856 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:15:17,856 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:19:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 20:20:17,856 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:25:17,857 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:30:17,857 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:34:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 20:35:17,858 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:40:17,858 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:45:17,858 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:49:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 20:50:17,859 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 20:55:17,859 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:00:17,860 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:04:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 21:05:17,860 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:10:17,861 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:15:17,861 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:19:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 21:20:17,862 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:25:17,862 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:30:17,862 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:34:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 21:35:17,863 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:40:17,863 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:45:17,864 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:49:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 21:50:17,864 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 21:55:17,865 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:00:17,865 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:04:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 22:05:17,866 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:10:17,866 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:15:17,866 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:19:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 22:20:17,867 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:25:17,867 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:30:17,868 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:34:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 22:35:17,868 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:40:17,869 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:45:17,869 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:49:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 22:50:17,870 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 22:55:17,870 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 23:00:17,870 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 23:04:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 23:05:17,871 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 23:10:17,871 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 23:15:17,872 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-07 23:19:55,077 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-07 23:20:17,872 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q

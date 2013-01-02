@@ -1,0 +1,213 @@
+5 sept. 2010 12:41:20 net.jxta.platform.NetworkManager configure
+INFO: Loading existing configuration. mode = EDGE
+5 sept. 2010 12:41:20 net.jxta.platform.NetworkManager startNetwork
+INFO: Starting JXTA Network! MODE = EDGE,  HOME = file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/bin/../var/jxta/datanode/
+5 sept. 2010 12:41:20 net.jxta.impl.loader.RefJxtaLoader findModuleImplAdvertisement
+ATTENTION: Failed to find class for urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000C0206
+java.lang.ClassNotFoundException: No matching class for : urn:jxta:uuid-DEADBEEFDEAFBABAFEEDBABE0000000C0206
+	at net.jxta.impl.loader.RefJxtaLoader.findClass(RefJxtaLoader.java:240)
+	at net.jxta.impl.loader.RefJxtaLoader.findModuleImplAdvertisement(RefJxtaLoader.java:350)
+	at net.jxta.impl.peergroup.StdPeerGroup.getDefaultModuleImplAdvertisement(StdPeerGroup.java:353)
+	at net.jxta.impl.peergroup.StdPeerGroup.<clinit>(StdPeerGroup.java:143)
+	at net.jxta.peergroup.WorldPeerGroupFactory.getDefaultWorldPeerGroupClass(WorldPeerGroupFactory.java:237)
+	at net.jxta.peergroup.WorldPeerGroupFactory.<init>(WorldPeerGroupFactory.java:178)
+	at net.jxta.peergroup.NetPeerGroupFactory.<init>(NetPeerGroupFactory.java:205)
+	at net.jxta.platform.NetworkManager.startNetwork(NetworkManager.java:410)
+	at com.agorasoft.ubeeko.p2pdatanode.PeerDataNode.run(PeerDataNode.java:123)
+	at com.agorasoft.ubeeko.p2pdatanode.PeerDataNode.start(PeerDataNode.java:115)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.startDataNode(DataNode.java:411)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.<init>(DataNode.java:222)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1316)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1271)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1279)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1401)
+5 sept. 2010 12:41:20 net.jxta.peergroup.WorldPeerGroupFactory newWorldPeerGroup
+INFO: Making a new World Peer Group instance using : net.jxta.impl.peergroup.Platform
+5 sept. 2010 12:41:20 net.jxta.impl.cm.SrdiIndex clearSrdi
+INFO: Clearing SRDI for null
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Always Access Service (net.jxta.impl.access.always.AlwaysAccessService)
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tcp.IncomingUnicastServer openServerSocket
+INFO: Server will accept connections at /0:0:0:0:0:0:0:0:26419
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the TCP Message Transport (net.jxta.impl.endpoint.tcp.TcpTransport)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Rendezvous Service (net.jxta.impl.rendezvous.RendezVousServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Peerinfo Service (net.jxta.impl.peer.PeerInfoServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Endpoint service (net.jxta.impl.endpoint.EndpointServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : None Membership Service (net.jxta.impl.membership.none.NoneMembershipService)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Resolver service (net.jxta.impl.resolver.ResolverServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Discovery service (net.jxta.impl.discovery.DiscoveryServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the IP Multicast Message Transport (net.jxta.impl.endpoint.mcast.McastTransport)
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tcp.TcpTransport startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.RendezVousServiceImpl startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.peer.PeerInfoServiceImpl startApp
+ATTENTION: Stalled until there is a resolver service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.EndpointServiceImpl startApp
+INFO: Endpoint Service started.
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl startApp
+ATTENTION: Stalled until there is a rendezvous service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.mcast.McastTransport startApp
+INFO: IP Multicast Message Transport started.
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tcp.TcpTransport startApp
+INFO: TCP Message Transport started.
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tcp.TcpTransport$MessengerSelectorThread run
+INFO: MessengerSelectorThread polling started
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tcp.IncomingUnicastServer run
+INFO: Server is ready to accept connections
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.adhoc.AdhocPeerRdvService <init>
+INFO: RendezVous Service is initialized for urn:jxta:jxta-WorldGroup as an ad hoc peer. 
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.RendezVousServiceImpl startApp
+INFO: Rendezvous Serivce started
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl beEdge
+INFO: Switched to a Edge peer role.
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl startApp
+INFO: Discovery service started
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup getInterface
+INFO: [urn:jxta:jxta-WorldGroup] GROUP REF COUNT INCREMENTED TO: 1 by
+	net.jxta.peergroup.NetPeerGroupFactory.<init>(NetPeerGroupFactory.java:206)
+5 sept. 2010 12:41:20 net.jxta.peergroup.NetPeerGroupFactory newNetPeerGroup
+INFO: Instantiating net peer group : urn:jxta:jxta-NetGroup
+	Parent : urn:jxta:jxta-WorldGroup "World PeerGroup"[1]
+	ID : urn:jxta:jxta-NetGroup
+	Name : NetPeerGroup
+	impl : null
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup getInterface
+INFO: [urn:jxta:jxta-WorldGroup] GROUP REF COUNT INCREMENTED TO: 2 by
+	net.jxta.impl.peergroup.GenericPeerGroup.loadModule(GenericPeerGroup.java:652)
+5 sept. 2010 12:41:20 net.jxta.impl.cm.SrdiIndex clearSrdi
+INFO: Clearing SRDI for NetPeerGroup
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the JXME Proxy Service (net.jxta.impl.proxy.ProxyService)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Relay Message Transport (net.jxta.impl.endpoint.relay.RelayTransport)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : PSE Membership Service (net.jxta.impl.membership.pse.PSEMembershipService)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Pipe Service (net.jxta.impl.pipe.PipeServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Router Message Transport (net.jxta.impl.endpoint.router.EndpointRouter)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Always Access Service (net.jxta.impl.access.always.AlwaysAccessService)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Rendezvous Service (net.jxta.impl.rendezvous.RendezVousServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Endpoint service (net.jxta.impl.endpoint.EndpointServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Peerinfo Service (net.jxta.impl.peer.PeerInfoServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Cryptobased-ID Message Transport (net.jxta.impl.endpoint.cbjx.CbJxTransport)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Resolver service (net.jxta.impl.resolver.ResolverServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tls.TlsTransport <init>
+INFO: Adjusting TLS connection idle timeout to 300000 millis.
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tls.TlsTransport <init>
+INFO: Adjusting TLS min reconnection idle to 60000 millis.
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.tls.TlsTransport <init>
+INFO: Adjusting TLS maximum retry queue age to 120000 millis.
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the TLS Message Transport (net.jxta.impl.endpoint.tls.TlsTransport)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded privileged module : Reference Implementation of the Discovery service (net.jxta.impl.discovery.DiscoveryServiceImpl)
+5 sept. 2010 12:41:20 net.jxta.impl.proxy.ProxyService startApp
+ATTENTION: Stalled until there is a endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayTransport startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.membership.pse.PSEMembershipService startApp
+INFO: PSE Membmership Service started.
+5 sept. 2010 12:41:20 net.jxta.impl.pipe.PipeServiceImpl startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.router.EndpointRouter startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.RendezVousServiceImpl startApp
+ATTENTION: Stalled until there is an endpoint service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.EndpointServiceImpl startApp
+INFO: Endpoint Service started.
+5 sept. 2010 12:41:20 net.jxta.impl.peer.PeerInfoServiceImpl startApp
+ATTENTION: Stalled until there is a resolver service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.cbjx.CbJxTransport startApp
+INFO: CbJxTransport started
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl startApp
+ATTENTION: Stalled until there is a rendezvous service
+5 sept. 2010 12:41:20 net.jxta.impl.proxy.ProxyService startApp
+ATTENTION: Stalled until there is a discovery service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayTransport startApp
+ATTENTION: Stalled until there is a discovery service
+5 sept. 2010 12:41:20 net.jxta.impl.pipe.PipeServiceImpl startApp
+ATTENTION: Stalled until there is a rendezvous service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.router.EndpointRouter startApp
+ATTENTION: Endpoint Router start stalled until rendezvous service available
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.edge.EdgePeerRdvService <init>
+INFO: RendezVous Service is initialized for urn:jxta:jxta-NetGroup as an Edge peer.
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.RendezVousServiceImpl startApp
+INFO: Rendezvous Serivce started
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl beEdge
+INFO: Switched to a Edge peer role.
+5 sept. 2010 12:41:20 net.jxta.impl.discovery.DiscoveryServiceImpl startApp
+INFO: Discovery service started
+5 sept. 2010 12:41:20 net.jxta.impl.proxy.ProxyService startApp
+ATTENTION: Stalled until there is a pipe service
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayTransport startApp
+ATTENTION: Stalled until there is a pipe service
+5 sept. 2010 12:41:20 net.jxta.impl.rendezvous.edge.EdgePeerRdvService$MonitorTask run
+ATTENTION: Rendezvous connection stalled until router is started!
+5 sept. 2010 12:41:20 net.jxta.impl.cm.SrdiIndex <init>
+INFO: [urn:jxta:jxta-NetGroup "NetPeerGroup"[0] / urn:jxta:jxta-WorldGroup "World PeerGroup"[2]] : Initialized pipeResolverSrdi
+5 sept. 2010 12:41:20 net.jxta.impl.cm.SrdiIndex startGC
+INFO: [urn:jxta:jxta-NetGroup "NetPeerGroup"[0] / urn:jxta:jxta-WorldGroup "World PeerGroup"[2]] : Starting SRDI GC Thread for pipeResolverSrdi
+5 sept. 2010 12:41:20 net.jxta.impl.cm.SrdiIndex <init>
+INFO: [urn:jxta:jxta-NetGroup "NetPeerGroup"[0] / urn:jxta:jxta-WorldGroup "World PeerGroup"[2]] : Initialized routerSrdi
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.router.EndpointRouter startApp
+INFO: urn:jxta:jxta-NetGroup "NetPeerGroup"[0] / urn:jxta:jxta-WorldGroup "World PeerGroup"[2] : Router Message Transport started.
+5 sept. 2010 12:41:20 net.jxta.impl.proxy.ProxyService startApp
+INFO: JXME Proxy Service started.
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayClient startClient
+INFO: Started client : relay://uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayTransport startApp
+INFO: Relay Message Transport started
+5 sept. 2010 12:41:20 net.jxta.impl.endpoint.relay.RelayClient run
+INFO: Start relay client thread
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup loadModule
+INFO: Loaded module : Default Network PeerGroup reference implementation (net.jxta.impl.peergroup.ShadowPeerGroup)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup decRefCount
+INFO: [urn:jxta:jxta-WorldGroup] GROUP REF COUNT DECCREMENTED TO: 1 by
+	net.jxta.peergroup.NetPeerGroupFactory.<init>(NetPeerGroupFactory.java:220)
+5 sept. 2010 12:41:20 net.jxta.impl.peergroup.GenericPeerGroup getInterface
+INFO: [urn:jxta:jxta-NetGroup] GROUP REF COUNT INCREMENTED TO: 1 by
+	net.jxta.platform.NetworkManager.startNetwork(NetworkManager.java:412)
+5 sept. 2010 12:41:20 net.jxta.platform.NetworkManager startNetwork
+INFO: Started JXTA Network!
+5 sept. 2010 12:41:22 net.jxta.impl.endpoint.tcp.TcpMessenger <init>
+INFO: Creating new TCP Connection to : tcp://127.0.0.1:26420 / 127.0.0.1:26420
+5 sept. 2010 12:41:22 net.jxta.impl.rendezvous.edge.EdgePeerRdvService addRdv
+INFO: New RDV lease from urn:jxta:uuid-59616261646162614E50472050325033A1D3844766FE4BF7AC18B19D7B46CDD203 C : -1283683282974 / -1283683282973
+5 sept. 2010 12:41:23 net.jxta.impl.pipe.InputPipeImpl <init>
+INFO: Creating InputPipe for urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004 of type JxtaUnicast with listener
+5 sept. 2010 12:41:44 net.jxta.impl.endpoint.mcast.McastTransport propagate
+ATTENTION: Multicast socket send failed
+java.io.IOException: Network is unreachable
+	at java.net.PlainDatagramSocketImpl.send(Native Method)
+	at java.net.DatagramSocket.send(DatagramSocket.java:612)
+	at net.jxta.impl.endpoint.mcast.McastTransport.propagate(McastTransport.java:664)
+	at net.jxta.impl.endpoint.EndpointServiceImpl.propagateThroughAll(EndpointServiceImpl.java:714)
+	at net.jxta.impl.endpoint.EndpointServiceImpl.propagate(EndpointServiceImpl.java:782)
+	at net.jxta.impl.endpoint.EndpointServiceInterface.propagate(EndpointServiceInterface.java:331)
+	at net.jxta.impl.rendezvous.RendezVousServiceProvider.sendToNetwork(RendezVousServiceProvider.java:554)
+	at net.jxta.impl.rendezvous.StdRendezVousService.propagateToNeighbors(StdRendezVousService.java:338)
+	at net.jxta.impl.rendezvous.RendezVousServiceImpl.propagateToNeighbors(RendezVousServiceImpl.java:759)
+	at net.jxta.impl.rendezvous.RendezVousServiceInterface.propagateToNeighbors(RendezVousServiceInterface.java:311)
+	at net.jxta.impl.resolver.ResolverServiceImpl.sendQuery(ResolverServiceImpl.java:539)
+	at net.jxta.impl.resolver.ResolverServiceInterface.sendQuery(ResolverServiceInterface.java:169)
+	at net.jxta.impl.discovery.DiscoveryServiceImpl.getRemoteAdvertisements(DiscoveryServiceImpl.java:379)
+	at net.jxta.impl.discovery.DiscoveryServiceImpl.getRemoteAdvertisements(DiscoveryServiceImpl.java:289)
+	at net.jxta.impl.discovery.DiscoveryServiceInterface.getRemoteAdvertisements(DiscoveryServiceInterface.java:141)
+	at com.agorasoft.ubeeko.p2psockets.P2PSocketLooupManager.run(P2PSocketLooupManager.java:46)
+	at java.lang.Thread.run(Thread.java:619)

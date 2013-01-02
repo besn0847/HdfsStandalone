@@ -1,0 +1,1327 @@
+2010-09-05 10:24:47,646 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = campagne/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20.2.b3
+STARTUP_MSG:   build =  -r ; compiled by 'franck' on Sun Sep  5 10:23:43 CEST 2010
+************************************************************/
+2010-09-05 10:24:47,648 DEBUG org.apache.hadoop.conf.Configuration: java.io.IOException: config()
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:210)
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:197)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:982)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1009)
+
+2010-09-05 10:24:48,085 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=NameNode, port=26410
+2010-09-05 10:24:48,170 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: localhost/127.0.0.1:26410
+2010-09-05 10:24:48,173 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2010-09-05 10:24:48,175 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2010-09-05 10:24:48,175 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: HTTP server starting
+2010-09-05 10:24:48,250 DEBUG org.apache.hadoop.security.UserGroupInformation: Unix Login: franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:24:48,250 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:24:48,250 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2010-09-05 10:24:48,250 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2010-09-05 10:24:48,260 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2010-09-05 10:24:48,263 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2010-09-05 10:24:48,317 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2010-09-05 10:24:48,324 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2010-09-05 10:24:48,324 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 96 loaded in 0 seconds.
+2010-09-05 10:24:48,324 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/franck/workspace/hadoop-0.20.2-binc/distrib/bin/../tmp/hadoop-franck/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2010-09-05 10:24:48,324 DEBUG org.apache.hadoop.hdfs.server.common.Storage: numOpAdd = 0 numOpClose = 0 numOpDelete = 0 numOpRename = 0 numOpSetRepl = 0 numOpMkDir = 0 numOpSetPerm = 0 numOpSetOwner = 0 numOpSetGenStamp = 0 numOpTimes = 0 numOpOther = 0
+2010-09-05 10:24:48,333 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Preallocating Edit log, current size 0
+2010-09-05 10:24:48,334 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Edit log size is now 1049088 written 512 bytes  at offset 1048576
+2010-09-05 10:24:48,438 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 96 saved in 0 seconds.
+2010-09-05 10:24:48,444 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Preallocating Edit log, current size 0
+2010-09-05 10:24:48,445 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Edit log size is now 1049088 written 512 bytes  at offset 1048576
+2010-09-05 10:24:48,452 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Preallocating Edit log, current size 0
+2010-09-05 10:24:48,453 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Edit log size is now 1049088 written 512 bytes  at offset 1048576
+2010-09-05 10:24:48,472 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 242 msecs
+2010-09-05 10:24:48,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2010-09-05 10:24:48,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2010-09-05 10:24:48,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2010-09-05 10:24:48,477 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2010-09-05 10:24:48,477 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2010-09-05 10:24:48,478 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2010-09-05 10:24:48,478 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2010-09-05 10:24:48,484 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:24:55,694 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2010-09-05 10:24:55,695 DEBUG org.mortbay.log: Container Server@110fe28 + SelectChannelConnector@0.0.0.0:26416 as connector
+2010-09-05 10:24:55,697 DEBUG org.mortbay.log: Container Server@110fe28 + org.mortbay.thread.QueuedThreadPool@25d2b2 as threadpool
+2010-09-05 10:24:55,710 DEBUG org.mortbay.log: Container Server@110fe28 + ContextHandlerCollection@1e97f9f as handler
+2010-09-05 10:24:55,768 DEBUG org.mortbay.log: Container ContextHandlerCollection@1e97f9f + org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs} as handler
+2010-09-05 10:24:55,769 DEBUG org.mortbay.log: Container SecurityHandler@5e176f + ServletHandler@1549f94 as handler
+2010-09-05 10:24:55,769 DEBUG org.mortbay.log: Container SessionHandler@b8c8e6 + SecurityHandler@5e176f as handler
+2010-09-05 10:24:55,769 DEBUG org.mortbay.log: Container SessionHandler@b8c8e6 + org.mortbay.jetty.servlet.HashSessionManager@18d9850 as sessionManager
+2010-09-05 10:24:55,769 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs} + SessionHandler@b8c8e6 as handler
+2010-09-05 10:24:55,769 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs} + ErrorPageErrorHandler@10ab323 as error
+2010-09-05 10:24:55,770 DEBUG org.mortbay.log: Container ContextHandlerCollection@1e97f9f + org.mortbay.jetty.servlet.Context@176e552{/logs,null} as handler
+2010-09-05 10:24:55,770 DEBUG org.mortbay.log: Container org.mortbay.jetty.servlet.Context@176e552{/logs,null} + ServletHandler@c980c9 as handler
+2010-09-05 10:24:55,778 DEBUG org.mortbay.log: Checking Resource aliases
+2010-09-05 10:24:55,790 DEBUG org.mortbay.log: Container ServletHandler@c980c9 + org.mortbay.jetty.servlet.DefaultServlet-3874052 as servlet
+2010-09-05 10:24:55,791 DEBUG org.mortbay.log: Container ServletHandler@c980c9 + (S=org.mortbay.jetty.servlet.DefaultServlet-3874052,[/]) as servletMapping
+2010-09-05 10:24:55,792 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,796 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,796 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,797 DEBUG org.mortbay.log: servletPathMap={/=org.mortbay.jetty.servlet.DefaultServlet-3874052}
+2010-09-05 10:24:55,797 DEBUG org.mortbay.log: servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-3874052=org.mortbay.jetty.servlet.DefaultServlet-3874052}
+2010-09-05 10:24:55,797 DEBUG org.mortbay.log: Container ContextHandlerCollection@1e97f9f + org.mortbay.jetty.servlet.Context@e28b9{/static,null} as handler
+2010-09-05 10:24:55,797 DEBUG org.mortbay.log: Container org.mortbay.jetty.servlet.Context@e28b9{/static,null} + ServletHandler@1f6df4c as handler
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: Container ServletHandler@1f6df4c + org.mortbay.jetty.servlet.DefaultServlet-12455463 as servlet
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: Container ServletHandler@1f6df4c + (S=org.mortbay.jetty.servlet.DefaultServlet-12455463,[/*]) as servletMapping
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: servletPathMap={/*=org.mortbay.jetty.servlet.DefaultServlet-12455463}
+2010-09-05 10:24:55,798 DEBUG org.mortbay.log: servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-12455463=org.mortbay.jetty.servlet.DefaultServlet-12455463}
+2010-09-05 10:24:55,799 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + stacks as servlet
+2010-09-05 10:24:55,799 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=stacks,[/stacks]) as servletMapping
+2010-09-05 10:24:55,799 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,799 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,799 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,800 DEBUG org.mortbay.log: servletPathMap={/stacks=stacks}
+2010-09-05 10:24:55,800 DEBUG org.mortbay.log: servletNameMap={stacks=stacks}
+2010-09-05 10:24:55,800 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + logLevel as servlet
+2010-09-05 10:24:55,800 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=logLevel,[/logLevel]) as servletMapping
+2010-09-05 10:24:55,801 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,801 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,801 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,801 DEBUG org.mortbay.log: servletPathMap={/stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,801 DEBUG org.mortbay.log: servletNameMap={logLevel=logLevel, stacks=stacks}
+2010-09-05 10:24:55,802 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + fsck as servlet
+2010-09-05 10:24:55,802 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=fsck,[/fsck]) as servletMapping
+2010-09-05 10:24:55,802 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,802 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,802 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: servletPathMap={/fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: servletNameMap={logLevel=logLevel, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + getimage as servlet
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=getimage,[/getimage]) as servletMapping
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,803 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,804 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,804 DEBUG org.mortbay.log: servletPathMap={/getimage=getimage, /fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,804 DEBUG org.mortbay.log: servletNameMap={logLevel=logLevel, getimage=getimage, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,805 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + listPaths as servlet
+2010-09-05 10:24:55,805 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=listPaths,[/listPaths/*]) as servletMapping
+2010-09-05 10:24:55,805 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,805 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,805 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,806 DEBUG org.mortbay.log: servletPathMap={/getimage=getimage, /listPaths/*=listPaths, /fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,806 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, logLevel=logLevel, getimage=getimage, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,809 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + data as servlet
+2010-09-05 10:24:55,810 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=data,[/data/*]) as servletMapping
+2010-09-05 10:24:55,810 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,810 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,810 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,810 DEBUG org.mortbay.log: servletPathMap={/data/*=data, /getimage=getimage, /listPaths/*=listPaths, /fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,811 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, logLevel=logLevel, data=data, getimage=getimage, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,811 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + checksum as servlet
+2010-09-05 10:24:55,811 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=checksum,[/fileChecksum/*]) as servletMapping
+2010-09-05 10:24:55,812 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,812 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:55,812 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,812 DEBUG org.mortbay.log: servletPathMap={/data/*=data, /getimage=getimage, /listPaths/*=listPaths, /fileChecksum/*=checksum, /fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,812 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, logLevel=logLevel, data=data, getimage=getimage, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,812 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 26416
+2010-09-05 10:24:55,815 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 26416 webServer.getConnectors()[0].getLocalPort() returned 26416
+2010-09-05 10:24:55,815 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 26416
+2010-09-05 10:24:55,815 INFO org.mortbay.log: jetty-6.1.14
+2010-09-05 10:24:55,834 DEBUG org.mortbay.log: started org.mortbay.thread.QueuedThreadPool@25d2b2
+2010-09-05 10:24:55,877 DEBUG org.mortbay.log: Thread Context class loader is: ContextLoader@null([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:55,877 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:55,877 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$ExtClassLoader@11b86e7
+2010-09-05 10:24:55,878 DEBUG org.mortbay.log: Try webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs/, exists=true, directory=true
+2010-09-05 10:24:55,878 DEBUG org.mortbay.log: webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs/
+2010-09-05 10:24:55,879 DEBUG org.mortbay.log: Delete existing temp dir /tmp/Jetty_0_0_0_0_26416_hdfs____.678vf5 for org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs}
+2010-09-05 10:24:55,885 DEBUG org.mortbay.log: Created temp dir /tmp/Jetty_0_0_0_0_26416_hdfs____.678vf5 for org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs}
+2010-09-05 10:24:55,912 DEBUG org.mortbay.log: getResource(org/mortbay/jetty/webapp/webdefault.xml)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:24:55,915 DEBUG org.mortbay.log: parse: jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:24:55,923 DEBUG org.mortbay.log: parsing: sid=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml,pid=null
+2010-09-05 10:24:55,962 DEBUG org.mortbay.log: ContextParam: org.mortbay.jetty.webapp.NoTLDJarPattern=start.jar|ant-.*\.jar|dojo-.*\.jar|jetty-.*\.jar|jsp-api-.*\.jar|junit-.*\.jar|servlet-api-.*\.jar|dnsns\.jar|rt\.jar|jsse\.jar|tools\.jar|sunpkcs11\.jar|sunjce_provider\.jar|xerces.*\.jar
+2010-09-05 10:24:55,974 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: servletPathMap={/data/*=data, /getimage=getimage, /listPaths/*=listPaths, /fileChecksum/*=checksum, /fsck=fsck, /stacks=stacks, /logLevel=logLevel}
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, logLevel=logLevel, data=data, getimage=getimage, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + default as servlet
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + jsp as servlet
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=default,[/]) as servletMapping
+2010-09-05 10:24:55,982 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+2010-09-05 10:24:55,983 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:55,983 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:24:55,983 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:55,983 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.jsp=jsp, /getimage=getimage, *.JSPF=jsp, *.jspx=jsp, /listPaths/*=listPaths, /fsck=fsck, /=default, *.xsp=jsp, /stacks=stacks, /logLevel=logLevel, *.JSPX=jsp, /data/*=data, *.jspf=jsp, /fileChecksum/*=checksum, *.JSP=jsp}
+2010-09-05 10:24:55,983 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, jsp=jsp, default=default, logLevel=logLevel, data=data, getimage=getimage, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:55,984 DEBUG org.mortbay.log: parse: file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs/WEB-INF/web.xml
+2010-09-05 10:24:55,984 DEBUG org.mortbay.log: parsing: sid=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs/WEB-INF/web.xml,pid=null
+2010-09-05 10:24:55,996 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN, http://java.sun.com/dtd/web-app_2_3.dtd)
+2010-09-05 10:24:55,996 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-app_2_3.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/servlet-api-2.5-6.1.14.jar!/javax/servlet/resources/web-app_2_3.dtd
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.jsp=jsp, /getimage=getimage, *.JSPF=jsp, *.jspx=jsp, /listPaths/*=listPaths, /fsck=fsck, /=default, *.xsp=jsp, /stacks=stacks, /logLevel=logLevel, *.JSPX=jsp, /data/*=data, *.jspf=jsp, /fileChecksum/*=checksum, *.JSP=jsp}
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: servletNameMap={listPaths=listPaths, jsp=jsp, default=default, logLevel=logLevel, data=data, getimage=getimage, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp as servlet
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp as servlet
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp as servlet
+2010-09-05 10:24:56,027 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp,[/nn_browsedfscontent.jsp]) as servletMapping
+2010-09-05 10:24:56,028 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp,[/dfsnodelist.jsp]) as servletMapping
+2010-09-05 10:24:56,028 DEBUG org.mortbay.log: Container ServletHandler@1549f94 + (S=org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp,[/dfshealth.jsp]) as servletMapping
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.jsp=jsp, /getimage=getimage, *.JSPF=jsp, *.jspx=jsp, /listPaths/*=listPaths, /dfsnodelist.jsp=org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp, /fsck=fsck, /=default, *.xsp=jsp, /stacks=stacks, /logLevel=logLevel, /nn_browsedfscontent.jsp=org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp, *.JSPX=jsp, /data/*=data, *.jspf=jsp, /dfshealth.jsp=org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp, /fileChecksum/*=checksum, *.JSP=jsp}
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: servletNameMap={org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp=org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp, listPaths=listPaths, jsp=jsp, default=default, logLevel=logLevel, org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp=org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp, data=data, getimage=getimage, org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp=org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:56,030 DEBUG org.mortbay.log: Configuring web-jetty.xml
+2010-09-05 10:24:56,032 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/hadoop-*-core.jar
+2010-09-05 10:24:56,044 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/binc-0.20.2.b3-hdfs.jar
+2010-09-05 10:24:56,055 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-cli-1.2.jar
+2010-09-05 10:24:56,056 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-codec-1.3.jar
+2010-09-05 10:24:56,058 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-collections-3.2.jar
+2010-09-05 10:24:56,065 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-logging-1.0.4.jar
+2010-09-05 10:24:56,065 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-net-1.4.1.jar
+2010-09-05 10:24:56,066 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-commons-2.0.0.jar
+2010-09-05 10:24:56,067 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-server-2.0.0.jar
+2010-09-05 10:24:56,067 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-webdav-2.0.0.jar
+2010-09-05 10:24:56,069 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jcr-1.0.jar
+2010-09-05 10:24:56,070 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jets3t-0.6.1.jar
+2010-09-05 10:24:56,071 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:24:56,072 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:24:56,073 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:24:56,078 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jxta-2.5.jar
+2010-09-05 10:24:56,082 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/kfs-0.2.2.jar
+2010-09-05 10:24:56,083 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/log4j-1.2.15.jar
+2010-09-05 10:24:56,084 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-api-1.4.3.jar
+2010-09-05 10:24:56,084 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-log4j12-1.4.3.jar
+2010-09-05 10:24:56,084 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-core-0.5.jar
+2010-09-05 10:24:56,085 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-parsers-0.5.jar
+2010-09-05 10:24:56,085 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xmlenc-0.52.jar
+2010-09-05 10:24:56,086 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1/*.jar
+2010-09-05 10:24:56,086 DEBUG org.mortbay.log: TLD search of file:/home/franck/local/jdk1.6.0_14/jre/lib/ext/localedata.jar
+2010-09-05 10:24:56,087 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.SAXParserFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.SAXParserFactory
+2010-09-05 10:24:56,087 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.SAXParserFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,088 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,089 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,090 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:24:56,090 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,090 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:24:56,091 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:24:56,091 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,091 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:24:56,091 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:24:56,092 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,093 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,097 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,115 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:24:56,127 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:24:56,130 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:24:56,130 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,130 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,131 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,144 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:24:56,150 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:24:56,151 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:24:56,151 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,151 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,151 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,162 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:24:56,165 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,165 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,165 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,175 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:24:56,180 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,180 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,180 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,188 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:24:56,189 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,189 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,190 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,201 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:24:56,203 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:24:56,203 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,203 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,203 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,213 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:24:56,214 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:24:56,214 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:24:56,214 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,215 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:24:56,223 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:24:56,235 DEBUG org.mortbay.log: Container Server@110fe28 + org.mortbay.jetty.servlet.HashSessionIdManager@19f3736 as sessionIdManager
+2010-09-05 10:24:56,235 DEBUG org.mortbay.log: Init SecureRandom.
+2010-09-05 10:24:56,253 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.HashSessionIdManager@19f3736
+2010-09-05 10:24:56,255 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.HashSessionManager@18d9850
+2010-09-05 10:24:56,255 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:56,255 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.jsp=jsp, /getimage=getimage, *.JSPF=jsp, *.jspx=jsp, /listPaths/*=listPaths, /dfsnodelist.jsp=org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp, /fsck=fsck, /=default, *.xsp=jsp, /stacks=stacks, /logLevel=logLevel, /nn_browsedfscontent.jsp=org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp, *.JSPX=jsp, /data/*=data, *.jspf=jsp, /dfshealth.jsp=org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp, /fileChecksum/*=checksum, *.JSP=jsp}
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: servletNameMap={org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp=org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp, listPaths=listPaths, jsp=jsp, default=default, logLevel=logLevel, org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp=org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp, data=data, getimage=getimage, org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp=org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp, checksum=checksum, stacks=stacks, fsck=fsck}
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: starting ServletHandler@1549f94
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: started ServletHandler@1549f94
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: starting SecurityHandler@5e176f
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: started SecurityHandler@5e176f
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: starting SessionHandler@b8c8e6
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: started SessionHandler@b8c8e6
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: starting org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs}
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: starting ErrorPageErrorHandler@10ab323
+2010-09-05 10:24:56,256 DEBUG org.mortbay.log: started ErrorPageErrorHandler@10ab323
+2010-09-05 10:24:56,258 DEBUG org.mortbay.log: started checksum
+2010-09-05 10:24:56,258 DEBUG org.mortbay.log: started data
+2010-09-05 10:24:56,258 DEBUG org.mortbay.log: started fsck
+2010-09-05 10:24:56,258 DEBUG org.mortbay.log: started getimage
+2010-09-05 10:24:56,258 DEBUG org.mortbay.log: started listPaths
+2010-09-05 10:24:56,262 DEBUG org.mortbay.log: loaded class org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,262 DEBUG org.mortbay.log: Holding class org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp
+2010-09-05 10:24:56,262 DEBUG org.mortbay.log: started org.apache.hadoop.hdfs.server.namenode.dfshealth_jsp
+2010-09-05 10:24:56,263 DEBUG org.mortbay.log: loaded class org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,263 DEBUG org.mortbay.log: Holding class org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp
+2010-09-05 10:24:56,263 DEBUG org.mortbay.log: started org.apache.hadoop.hdfs.server.namenode.dfsnodelist_jsp
+2010-09-05 10:24:56,264 DEBUG org.mortbay.log: loaded class org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,264 DEBUG org.mortbay.log: Holding class org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp
+2010-09-05 10:24:56,264 DEBUG org.mortbay.log: started org.apache.hadoop.hdfs.server.namenode.nn_005fbrowsedfscontent_jsp
+2010-09-05 10:24:56,264 DEBUG org.mortbay.log: started stacks
+2010-09-05 10:24:56,264 DEBUG org.mortbay.log: started logLevel
+2010-09-05 10:24:56,265 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,265 DEBUG org.mortbay.log: Holding class org.apache.jasper.servlet.JspServlet
+2010-09-05 10:24:56,298 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.DocumentBuilderFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.DocumentBuilderFactory
+2010-09-05 10:24:56,299 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,300 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,300 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,351 DEBUG org.apache.jasper.compiler.JspRuntimeContext: PWC5965: Parent class loader is: ContextLoader@null([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,355 DEBUG org.apache.jasper.servlet.JspServlet: PWC5964: Scratch dir for the JSP engine is: /tmp/Jetty_0_0_0_0_26416_hdfs____.678vf5/jsp
+2010-09-05 10:24:56,355 DEBUG org.apache.jasper.servlet.JspServlet: PWC5966: IMPORTANT: Do not modify the generated servlets
+2010-09-05 10:24:56,355 DEBUG org.mortbay.log: started jsp
+2010-09-05 10:24:56,355 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:24:56,355 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:24:56,356 DEBUG org.mortbay.log: Holding class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@13e754f
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: started org.mortbay.jetty.ResourceCache@187c55c
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: resource base = file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs/
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: started default
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: started org.mortbay.jetty.webapp.WebAppContext@11e1e67{/,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/hdfs}
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: Container org.mortbay.jetty.servlet.Context@176e552{/logs,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/logs/} + ErrorHandler@ae3364 as errorHandler
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: servletPathMap={/=org.mortbay.jetty.servlet.DefaultServlet-3874052}
+2010-09-05 10:24:56,366 DEBUG org.mortbay.log: servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-3874052=org.mortbay.jetty.servlet.DefaultServlet-3874052}
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: starting ServletHandler@c980c9
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: started ServletHandler@c980c9
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: starting org.mortbay.jetty.servlet.Context@176e552{/logs,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/logs/}
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: starting ErrorHandler@ae3364
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: started ErrorHandler@ae3364
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: Holding class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.DefaultServlet-3874052
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.Context@176e552{/logs,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/logs/}
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: Container org.mortbay.jetty.servlet.Context@e28b9{/static,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/static/} + ErrorHandler@b02928 as errorHandler
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: pathFilters=null
+2010-09-05 10:24:56,367 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: servletPathMap={/*=org.mortbay.jetty.servlet.DefaultServlet-12455463}
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-12455463=org.mortbay.jetty.servlet.DefaultServlet-12455463}
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: starting ServletHandler@1f6df4c
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: started ServletHandler@1f6df4c
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: starting org.mortbay.jetty.servlet.Context@e28b9{/static,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/static/}
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: starting ErrorHandler@b02928
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: started ErrorHandler@b02928
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: Holding class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.DefaultServlet-12455463
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.Context@e28b9{/static,file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/static/}
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: starting ContextHandlerCollection@1e97f9f
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: started ContextHandlerCollection@1e97f9f
+2010-09-05 10:24:56,368 DEBUG org.mortbay.log: starting Server@110fe28
+2010-09-05 10:24:56,377 DEBUG org.mortbay.log: started org.mortbay.jetty.nio.SelectChannelConnector$1@36527f
+2010-09-05 10:24:56,383 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:26416
+2010-09-05 10:24:56,383 DEBUG org.mortbay.log: started SelectChannelConnector@0.0.0.0:26416
+2010-09-05 10:24:56,383 DEBUG org.mortbay.log: started Server@110fe28
+2010-09-05 10:24:56,383 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: 0.0.0.0:26416
+2010-09-05 10:24:56,384 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2010-09-05 10:24:56,396 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: starting
+2010-09-05 10:24:56,399 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: starting
+2010-09-05 10:24:56,399 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: starting
+2010-09-05 10:24:56,399 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: starting
+2010-09-05 10:24:56,400 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: starting
+2010-09-05 10:24:56,400 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: starting
+2010-09-05 10:24:56,400 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: starting
+2010-09-05 10:24:56,396 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: starting
+2010-09-05 10:24:56,385 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: starting
+2010-09-05 10:24:56,385 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: starting
+2010-09-05 10:24:56,385 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 26410: starting
+2010-09-05 10:24:56,412 DEBUG org.apache.hadoop.security.UserGroupInformation: Unix Login: franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:24:56,440 DEBUG org.apache.hadoop.security.UserGroupInformation: Unix Login: franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:24:56,542 DEBUG org.apache.hadoop.ipc.Client: The ping interval is60000ms.
+2010-09-05 10:24:56,577 DEBUG org.apache.hadoop.ipc.Client: Connecting to localhost/127.0.0.1:26410
+2010-09-05 10:24:56,585 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:55144; # active connections: 1; # queued calls: 0
+2010-09-05 10:24:56,589 DEBUG org.apache.hadoop.ipc.Client: IPC Client (47) connection to localhost/127.0.0.1:26410 from franck sending #0
+2010-09-05 10:24:56,592 DEBUG org.apache.hadoop.conf.Configuration: java.io.IOException: config()
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:210)
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:197)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:40)
+	at org.apache.hadoop.ipc.Server$Connection.processHeader(Server.java:894)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:849)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:419)
+	at org.apache.hadoop.ipc.Server$Listener.run(Server.java:328)
+
+2010-09-05 10:24:56,601 DEBUG org.apache.hadoop.conf.Configuration: java.io.IOException: config(config)
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:225)
+	at org.apache.hadoop.security.authorize.ConfiguredPolicy.refresh(ConfiguredPolicy.java:105)
+	at org.apache.hadoop.security.authorize.ConfiguredPolicy.<init>(ConfiguredPolicy.java:56)
+	at org.apache.hadoop.security.SecurityUtil.<clinit>(SecurityUtil.java:40)
+	at org.apache.hadoop.ipc.Server$Connection.processHeader(Server.java:894)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:849)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:419)
+	at org.apache.hadoop.ipc.Server$Listener.run(Server.java:328)
+
+2010-09-05 10:24:56,601 DEBUG org.apache.hadoop.security.SecurityUtil: Setting Hadoop security policy
+2010-09-05 10:24:56,606 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.ipc.VersionedProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:24:56,606 DEBUG org.apache.hadoop.ipc.Server:  got #0
+2010-09-05 10:24:56,607 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #0 from 127.0.0.1:55144
+2010-09-05 10:24:56,607 DEBUG org.apache.hadoop.ipc.Client: IPC Client (47) connection to localhost/127.0.0.1:26410 from franck: starting, having connections 1
+2010-09-05 10:24:56,615 DEBUG org.apache.hadoop.ipc.Server: Served: getProtocolVersion queueTime= 8 procesingTime= 0
+2010-09-05 10:24:56,616 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:55144
+2010-09-05 10:24:56,616 DEBUG org.apache.hadoop.ipc.Client: IPC Client (47) connection to localhost/127.0.0.1:26410 from franck got value #0
+2010-09-05 10:24:56,617 DEBUG org.apache.hadoop.ipc.RPC: Call: getProtocolVersion 46
+2010-09-05 10:24:56,620 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:55144 Wrote 22 bytes.
+2010-09-05 10:24:56,627 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: P2P Rendez-Vous server starting
+2010-09-05 10:24:56,632 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Initializing P2P rendez-Vous server
+2010-09-05 10:24:56,809 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Rendez Vous port is: 26420
+2010-09-05 10:24:56,809 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Rendez Vous ip address is: /127.0.0.1
+2010-09-05 10:24:56,839 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Starting Rendez-Vous Network Manager
+2010-09-05 10:24:57,596 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Webdav server starting
+2010-09-05 10:25:02,824 INFO org.apache.hadoop.fs.webdav.WebdavServer: Initializing webdav server
+2010-09-05 10:25:02,824 INFO org.apache.hadoop.fs.webdav.WebdavServer: Initializing webdav server
+2010-09-05 10:25:02,833 DEBUG org.mortbay.log: parsing: sid=null,pid=null
+2010-09-05 10:25:02,834 DEBUG org.mortbay.log: resolveEntity(-//Mort Bay Consulting//DTD Configure//EN, http://jetty.mortbay.org/configure.dtd)
+2010-09-05 10:25:02,834 DEBUG org.mortbay.log: Redirected entity http://jetty.mortbay.org/configure.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/xml/configure_6_0.dtd
+2010-09-05 10:25:02,849 DEBUG org.mortbay.log: XML new class org.mortbay.jetty.handler.HandlerCollection
+2010-09-05 10:25:02,854 DEBUG org.mortbay.log: XML new class org.mortbay.jetty.webapp.WebAppContext
+2010-09-05 10:25:02,854 DEBUG org.mortbay.log: XML call setContextPath
+2010-09-05 10:25:02,860 DEBUG org.mortbay.log: XML call setWar
+2010-09-05 10:25:02,860 DEBUG org.mortbay.log: XML call setDescriptor
+2010-09-05 10:25:02,860 DEBUG org.mortbay.log: XML new class org.mortbay.jetty.webapp.WebAppContext
+2010-09-05 10:25:02,861 DEBUG org.mortbay.log: XML call setContextPath
+2010-09-05 10:25:02,861 DEBUG org.mortbay.log: XML call setWar
+2010-09-05 10:25:02,861 DEBUG org.mortbay.log: XML call setDescriptor
+2010-09-05 10:25:02,861 DEBUG org.mortbay.log: XML call setAttribute
+2010-09-05 10:25:02,863 DEBUG org.mortbay.log: XML HandlerCollection@1e6e305.setHandlers([Lorg.mortbay.jetty.Handler;@14275d4)
+2010-09-05 10:25:02,863 DEBUG org.mortbay.log: XML Server@45e228.setHandler(HandlerCollection@1e6e305)
+2010-09-05 10:25:02,865 DEBUG org.mortbay.log: Container Server@45e228 + HandlerCollection@1e6e305 as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SecurityHandler@33788d + ServletHandler@12fb0af as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SessionHandler@1f8bd0d + SecurityHandler@33788d as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SessionHandler@1f8bd0d + org.mortbay.jetty.servlet.HashSessionManager@143bf3d as sessionManager
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser} + SessionHandler@1f8bd0d as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser} + ErrorPageErrorHandler@789869 as error
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SecurityHandler@15e293a + ServletHandler@e4bb3c as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SessionHandler@c063ad + SecurityHandler@15e293a as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container SessionHandler@c063ad + org.mortbay.jetty.servlet.HashSessionManager@cffc79 as sessionManager
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav} + SessionHandler@c063ad as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav} + ErrorPageErrorHandler@e2ecc7 as error
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container HandlerCollection@1e6e305 + org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser} as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container HandlerCollection@1e6e305 + org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav} as handler
+2010-09-05 10:25:02,866 DEBUG org.mortbay.log: Container Server@45e228 + SelectChannelConnector@0.0.0.0:26412 as connector
+2010-09-05 10:25:02,866 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: WebDAV server up at: 0.0.0.0:26412
+2010-09-05 10:25:02,866 INFO org.mortbay.log: jetty-6.1.14
+2010-09-05 10:25:02,867 DEBUG org.mortbay.log: Container Server@45e228 + org.mortbay.thread.QueuedThreadPool@272961 as threadpool
+2010-09-05 10:25:02,867 DEBUG org.mortbay.log: started org.mortbay.thread.QueuedThreadPool@272961
+2010-09-05 10:25:02,877 DEBUG org.mortbay.log: Thread Context class loader is: ContextLoader@null([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,877 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,877 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$ExtClassLoader@11b86e7
+2010-09-05 10:25:02,877 DEBUG org.mortbay.log: Try webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/ajaxfilebrowser/, exists=true, directory=true
+2010-09-05 10:25:02,877 DEBUG org.mortbay.log: webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/ajaxfilebrowser/
+2010-09-05 10:25:02,878 DEBUG org.mortbay.log: Delete existing temp dir /tmp/Jetty_0_0_0_0_26412_ajaxfilebrowser__ajaxexplorer__.xzxy4h for org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser}
+2010-09-05 10:25:02,878 DEBUG org.mortbay.log: Created temp dir /tmp/Jetty_0_0_0_0_26412_ajaxfilebrowser__ajaxexplorer__.xzxy4h for org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser}
+2010-09-05 10:25:02,879 DEBUG org.mortbay.log: getResource(org/mortbay/jetty/webapp/webdefault.xml)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:25:02,879 DEBUG org.mortbay.log: parse: jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:25:02,879 DEBUG org.mortbay.log: parsing: sid=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml,pid=null
+2010-09-05 10:25:02,887 DEBUG org.mortbay.log: ContextParam: org.mortbay.jetty.webapp.NoTLDJarPattern=start.jar|ant-.*\.jar|dojo-.*\.jar|jetty-.*\.jar|jsp-api-.*\.jar|junit-.*\.jar|servlet-api-.*\.jar|dnsns\.jar|rt\.jar|jsse\.jar|tools\.jar|sunpkcs11\.jar|sunjce_provider\.jar|xerces.*\.jar
+2010-09-05 10:25:02,887 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: servletPathMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: servletNameMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + default as servlet
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + jsp as servlet
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + (S=default,[/]) as servletMapping
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:02,888 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:02,889 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default}
+2010-09-05 10:25:02,889 DEBUG org.mortbay.log: parse: file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/ajaxfilebrowser/WEB-INF/web.xml
+2010-09-05 10:25:02,889 DEBUG org.mortbay.log: parsing: sid=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/ajaxfilebrowser/WEB-INF/web.xml,pid=null
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default}
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + php as servlet
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: Container ServletHandler@12fb0af + (S=php,[/ajaxexplorer/*]) as servletMapping
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:02,892 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:02,893 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, /ajaxexplorer/*=php, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:02,893 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default, php=php}
+2010-09-05 10:25:02,893 DEBUG org.mortbay.log: Configuring web-jetty.xml
+2010-09-05 10:25:02,897 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/hadoop-*-core.jar
+2010-09-05 10:25:02,897 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/binc-0.20.2.b3-hdfs.jar
+2010-09-05 10:25:02,899 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-cli-1.2.jar
+2010-09-05 10:25:02,910 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-codec-1.3.jar
+2010-09-05 10:25:02,910 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-collections-3.2.jar
+2010-09-05 10:25:02,911 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-logging-1.0.4.jar
+2010-09-05 10:25:02,912 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-net-1.4.1.jar
+2010-09-05 10:25:02,915 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-commons-2.0.0.jar
+2010-09-05 10:25:02,916 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-server-2.0.0.jar
+2010-09-05 10:25:02,921 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-webdav-2.0.0.jar
+2010-09-05 10:25:02,924 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jcr-1.0.jar
+2010-09-05 10:25:02,924 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jets3t-0.6.1.jar
+2010-09-05 10:25:02,925 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:25:02,926 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:25:02,927 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:25:02,927 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:25:02,927 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:25:02,927 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:25:02,927 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:25:02,942 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jxta-2.5.jar
+2010-09-05 10:25:02,957 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/kfs-0.2.2.jar
+2010-09-05 10:25:02,957 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/log4j-1.2.15.jar
+2010-09-05 10:25:02,958 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-api-1.4.3.jar
+2010-09-05 10:25:02,958 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-log4j12-1.4.3.jar
+2010-09-05 10:25:02,959 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-core-0.5.jar
+2010-09-05 10:25:02,959 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-parsers-0.5.jar
+2010-09-05 10:25:02,960 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xmlenc-0.52.jar
+2010-09-05 10:25:02,960 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1/*.jar
+2010-09-05 10:25:02,971 DEBUG org.mortbay.log: TLD search of file:/home/franck/local/jdk1.6.0_14/jre/lib/ext/localedata.jar
+2010-09-05 10:25:02,972 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.SAXParserFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.SAXParserFactory
+2010-09-05 10:25:02,973 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.SAXParserFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,973 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,974 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:02,974 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:25:02,974 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:02,974 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:25:02,975 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:25:02,975 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:02,975 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:25:02,975 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:25:02,976 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:02,988 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:02,989 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:02,992 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:25:03,006 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:25:03,007 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:25:03,008 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,010 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,010 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,016 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:25:03,020 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:25:03,025 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:25:03,026 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,026 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,026 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,037 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:25:03,039 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,039 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,039 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,045 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:25:03,046 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,046 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,046 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,053 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:25:03,054 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,054 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,055 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,057 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:25:03,059 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:25:03,060 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,061 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,061 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,063 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:25:03,064 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:25:03,064 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,065 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,065 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,068 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:25:03,069 DEBUG org.mortbay.log: Container Server@45e228 + org.mortbay.jetty.servlet.HashSessionIdManager@1b7ae22 as sessionIdManager
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: Init SecureRandom.
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.HashSessionIdManager@1b7ae22
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.HashSessionManager@143bf3d
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,070 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, /ajaxexplorer/*=php, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default, php=php}
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: starting ServletHandler@12fb0af
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: started ServletHandler@12fb0af
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: starting SecurityHandler@33788d
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: started SecurityHandler@33788d
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: starting SessionHandler@1f8bd0d
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: started SessionHandler@1f8bd0d
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: starting org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser}
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: starting ErrorPageErrorHandler@789869
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: started ErrorPageErrorHandler@789869
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,071 DEBUG org.mortbay.log: Holding class org.apache.jasper.servlet.JspServlet
+2010-09-05 10:25:03,072 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.DocumentBuilderFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.DocumentBuilderFactory
+2010-09-05 10:25:03,073 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,073 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,074 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,075 DEBUG org.apache.jasper.compiler.JspRuntimeContext: PWC5965: Parent class loader is: ContextLoader@WebDAV Ajax Explorer([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,075 DEBUG org.apache.jasper.servlet.JspServlet: PWC5964: Scratch dir for the JSP engine is: /tmp/Jetty_0_0_0_0_26412_ajaxfilebrowser__ajaxexplorer__.xzxy4h/jsp
+2010-09-05 10:25:03,075 DEBUG org.apache.jasper.servlet.JspServlet: PWC5966: IMPORTANT: Do not modify the generated servlets
+2010-09-05 10:25:03,075 DEBUG org.mortbay.log: started jsp
+2010-09-05 10:25:03,076 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:25:03,076 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,076 DEBUG org.mortbay.log: Holding class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:25:03,076 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@108f8e0
+2010-09-05 10:25:03,076 DEBUG org.mortbay.log: started org.mortbay.jetty.ResourceCache@b6ef8
+2010-09-05 10:25:03,079 DEBUG org.mortbay.log: resource base = file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/ajaxfilebrowser/
+2010-09-05 10:25:03,079 DEBUG org.mortbay.log: started default
+2010-09-05 10:25:03,081 DEBUG org.mortbay.log: loaded class org.mortbay.servlet.CGI
+2010-09-05 10:25:03,081 DEBUG org.mortbay.log: loaded class org.mortbay.servlet.CGI from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,081 DEBUG org.mortbay.log: Holding class org.mortbay.servlet.CGI
+2010-09-05 10:25:03,081 DEBUG org.mortbay.log: started php
+2010-09-05 10:25:03,081 DEBUG org.mortbay.log: started org.mortbay.jetty.webapp.WebAppContext@c06258{/ajaxexplorer,webapps/ajaxfilebrowser}
+2010-09-05 10:25:03,084 DEBUG org.mortbay.log: Thread Context class loader is: ContextLoader@null([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,084 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,084 DEBUG org.mortbay.log: Parent class loader is: sun.misc.Launcher$ExtClassLoader@11b86e7
+2010-09-05 10:25:03,084 DEBUG org.mortbay.log: Try webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/webdav/, exists=true, directory=true
+2010-09-05 10:25:03,084 DEBUG org.mortbay.log: webapp=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/webdav/
+2010-09-05 10:25:03,085 DEBUG org.mortbay.log: Delete existing temp dir /tmp/Jetty_0_0_0_0_26412_webdav____.4578i9 for org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav}
+2010-09-05 10:25:03,085 DEBUG org.mortbay.log: Created temp dir /tmp/Jetty_0_0_0_0_26412_webdav____.4578i9 for org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav}
+2010-09-05 10:25:03,085 DEBUG org.mortbay.log: getResource(org/mortbay/jetty/webapp/webdefault.xml)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:25:03,085 DEBUG org.mortbay.log: parse: jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml
+2010-09-05 10:25:03,086 DEBUG org.mortbay.log: parsing: sid=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jetty-6.1.14.jar!/org/mortbay/jetty/webapp/webdefault.xml,pid=null
+2010-09-05 10:25:03,090 DEBUG org.mortbay.log: ContextParam: org.mortbay.jetty.webapp.NoTLDJarPattern=start.jar|ant-.*\.jar|dojo-.*\.jar|jetty-.*\.jar|jsp-api-.*\.jar|junit-.*\.jar|servlet-api-.*\.jar|dnsns\.jar|rt\.jar|jsse\.jar|tools\.jar|sunpkcs11\.jar|sunjce_provider\.jar|xerces.*\.jar
+2010-09-05 10:25:03,090 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: servletPathMap=null
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: servletNameMap=null
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + default as servlet
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + jsp as servlet
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + (S=default,[/]) as servletMapping
+2010-09-05 10:25:03,091 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + (S=jsp,[*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]) as servletMapping
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default}
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: parse: file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/webdav/WEB-INF/web.xml
+2010-09-05 10:25:03,092 DEBUG org.mortbay.log: parsing: sid=file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/webdav/WEB-INF/web.xml,pid=null
+2010-09-05 10:25:03,093 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN, http://java.sun.com/dtd/web-app_2_3.dtd)
+2010-09-05 10:25:03,093 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-app_2_3.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/servlet-api-2.5-6.1.14.jar!/javax/servlet/resources/web-app_2_3.dtd
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default}
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + webdav as servlet
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: Container ServletHandler@e4bb3c + (S=webdav,[/*]) as servletMapping
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, /*=webdav, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default, webdav=webdav}
+2010-09-05 10:25:03,106 DEBUG org.mortbay.log: Configuring web-jetty.xml
+2010-09-05 10:25:03,108 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/hadoop-*-core.jar
+2010-09-05 10:25:03,109 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/binc-0.20.2.b3-hdfs.jar
+2010-09-05 10:25:03,111 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-cli-1.2.jar
+2010-09-05 10:25:03,111 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-codec-1.3.jar
+2010-09-05 10:25:03,112 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-collections-3.2.jar
+2010-09-05 10:25:03,113 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-logging-1.0.4.jar
+2010-09-05 10:25:03,113 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/commons-net-1.4.1.jar
+2010-09-05 10:25:03,115 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-commons-2.0.0.jar
+2010-09-05 10:25:03,115 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-jcr-server-2.0.0.jar
+2010-09-05 10:25:03,116 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jackrabbit-webdav-2.0.0.jar
+2010-09-05 10:25:03,116 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jcr-1.0.jar
+2010-09-05 10:25:03,117 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jets3t-0.6.1.jar
+2010-09-05 10:25:03,117 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar
+2010-09-05 10:25:03,121 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:25:03,122 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:25:03,123 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:25:03,123 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:25:03,123 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:25:03,123 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:25:03,123 DEBUG org.mortbay.log: TLD found jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:25:03,124 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jxta-2.5.jar
+2010-09-05 10:25:03,126 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/kfs-0.2.2.jar
+2010-09-05 10:25:03,126 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/log4j-1.2.15.jar
+2010-09-05 10:25:03,127 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-api-1.4.3.jar
+2010-09-05 10:25:03,128 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/slf4j-log4j12-1.4.3.jar
+2010-09-05 10:25:03,128 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-core-0.5.jar
+2010-09-05 10:25:03,128 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/tika-parsers-0.5.jar
+2010-09-05 10:25:03,129 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xmlenc-0.52.jar
+2010-09-05 10:25:03,129 DEBUG org.mortbay.log: TLD search of file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1/*.jar
+2010-09-05 10:25:03,129 DEBUG org.mortbay.log: TLD search of file:/home/franck/local/jdk1.6.0_14/jre/lib/ext/localedata.jar
+2010-09-05 10:25:03,130 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.SAXParserFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.SAXParserFactory
+2010-09-05 10:25:03,131 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.SAXParserFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,131 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,131 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,132 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:25:03,132 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,132 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:25:03,133 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2010-09-05 10:25:03,135 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,135 DEBUG org.mortbay.log: getResource(javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2010-09-05 10:25:03,136 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0.tld
+2010-09-05 10:25:03,138 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,138 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,138 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,141 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c.tld
+2010-09-05 10:25:03,143 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql.tld
+2010-09-05 10:25:03,144 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt-1_0-rt.tld
+2010-09-05 10:25:03,144 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,144 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,145 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,147 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fn.tld
+2010-09-05 10:25:03,148 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/permittedTaglibs.tld
+2010-09-05 10:25:03,149 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0.tld
+2010-09-05 10:25:03,149 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,149 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,149 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,151 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0-rt.tld
+2010-09-05 10:25:03,152 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,152 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,152 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,155 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/sql-1_0-rt.tld
+2010-09-05 10:25:03,155 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,155 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,155 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,158 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/c-1_0.tld
+2010-09-05 10:25:03,159 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,159 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,159 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,162 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x.tld
+2010-09-05 10:25:03,163 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0-rt.tld
+2010-09-05 10:25:03,164 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,164 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,164 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,166 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/scriptfree.tld
+2010-09-05 10:25:03,167 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/x-1_0.tld
+2010-09-05 10:25:03,168 DEBUG org.mortbay.log: resolveEntity(-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN, http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd)
+2010-09-05 10:25:03,168 DEBUG org.mortbay.log: Can't exact match entity in redirect map, trying web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,168 DEBUG org.mortbay.log: Redirected entity http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd --> jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-api-2.1.jar!/javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2010-09-05 10:25:03,175 DEBUG org.mortbay.log: TLD=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/jsp-2.1.jar!/META-INF/fmt.tld
+2010-09-05 10:25:03,177 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.HashSessionManager@cffc79
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: filterNameMap=null
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: pathFilters=[]
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: servletFilterMap=null
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: servletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, /*=webdav, *.xsp=jsp, /=default, *.JSP=jsp}
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: servletNameMap={jsp=jsp, default=default, webdav=webdav}
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: starting ServletHandler@e4bb3c
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: started ServletHandler@e4bb3c
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: starting SecurityHandler@15e293a
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: started SecurityHandler@15e293a
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: starting SessionHandler@c063ad
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: started SessionHandler@c063ad
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: starting org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav}
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: starting ErrorPageErrorHandler@e2ecc7
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: started ErrorPageErrorHandler@e2ecc7
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: loaded class org.apache.jasper.servlet.JspServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,178 DEBUG org.mortbay.log: Holding class org.apache.jasper.servlet.JspServlet
+2010-09-05 10:25:03,179 DEBUG org.mortbay.log: getResource(META-INF/services/javax.xml.parsers.DocumentBuilderFactory)=jar:file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/lib/xercesImpl-2.8.1.jar!/META-INF/services/javax.xml.parsers.DocumentBuilderFactory
+2010-09-05 10:25:03,179 DEBUG org.mortbay.log: loaded class org.apache.xerces.jaxp.DocumentBuilderFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,180 DEBUG org.mortbay.log: loaded class org.apache.xerces.parsers.XIncludeAwareParserConfiguration from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,183 DEBUG org.mortbay.log: loaded class org.apache.xerces.impl.dv.dtd.DTDDVFactoryImpl from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,194 DEBUG org.apache.jasper.compiler.JspRuntimeContext: PWC5965: Parent class loader is: ContextLoader@Hadoop WebDAV Server([]) / sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,194 DEBUG org.apache.jasper.servlet.JspServlet: PWC5964: Scratch dir for the JSP engine is: /tmp/Jetty_0_0_0_0_26412_webdav____.4578i9/jsp
+2010-09-05 10:25:03,195 DEBUG org.apache.jasper.servlet.JspServlet: PWC5966: IMPORTANT: Do not modify the generated servlets
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: started jsp
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: loaded class org.mortbay.jetty.servlet.DefaultServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: Holding class org.mortbay.jetty.servlet.DefaultServlet
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: started org.mortbay.jetty.servlet.DefaultServlet$NIOResourceCache@185572a
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: started org.mortbay.jetty.ResourceCache@11daa0e
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: resource base = file:/home/franck/Documents/workspace/hadoop-0.20.2-binc/distrib/webapps/webdav/
+2010-09-05 10:25:03,195 DEBUG org.mortbay.log: started default
+2010-09-05 10:25:03,208 DEBUG org.mortbay.log: loaded class org.apache.hadoop.fs.webdav.WebdavServlet from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,208 DEBUG org.mortbay.log: Holding class org.apache.hadoop.fs.webdav.WebdavServlet
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.log4j.Logger
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.log4j.Logger from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.commons.logging.impl.Log4JLogger
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.commons.logging.impl.Log4JLogger from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.commons.logging.impl.Log4JLogger
+2010-09-05 10:25:03,228 DEBUG org.mortbay.log: loaded class org.apache.commons.logging.impl.Log4JLogger from sun.misc.Launcher$AppClassLoader@7d772e
+2010-09-05 10:25:03,229 DEBUG org.apache.hadoop.conf.Configuration: java.io.IOException: config()
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:210)
+	at org.apache.hadoop.conf.Configuration.<init>(Configuration.java:197)
+	at org.apache.hadoop.fs.webdav.WebdavServlet.<clinit>(WebdavServlet.java:118)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:355)
+	at java.lang.Class.newInstance(Class.java:308)
+	at org.mortbay.jetty.servlet.Holder.newInstance(Holder.java:153)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:419)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:643)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1234)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:517)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:460)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerCollection.doStart(HandlerCollection.java:152)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:222)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.apache.hadoop.fs.webdav.WebdavServer.start(WebdavServer.java:57)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:224)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:319)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1000)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1009)
+
+2010-09-05 10:25:03,229 DEBUG org.apache.hadoop.fs.webdav.WebdavServlet: Missing path prefix -> setting to empty string.
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: resource-path-prefix = ''
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: WWW-Authenticate header = 'Basic realm="Jackrabbit Webdav Server"'
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: INIT_PARAMETERS: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: ServletInfo: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: ServletName: webdav
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: SERVLET_CONFIG_PARAMETERS: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: SERVLET_CONTEXT_PARAMETERS: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- org.mortbay.jetty.webapp.NoTLDJarPattern: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: SERVLET_CONTEXT_ATTRIBUTES: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- com.sun.jsp.tagFileJarUrlsCache: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- webAppContext: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- hadoop.webdav.resourcepath: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- javax.servlet.context.tempdir: 
+2010-09-05 10:25:03,233 INFO org.apache.hadoop.fs.webdav.WebdavServlet: -- com.sun.jsp.taglibraryCache: 
+2010-09-05 10:25:03,233 DEBUG org.mortbay.log: started webdav
+2010-09-05 10:25:03,234 DEBUG org.mortbay.log: started org.mortbay.jetty.webapp.WebAppContext@c8769b{/,webapps/webdav}
+2010-09-05 10:25:03,234 DEBUG org.mortbay.log: starting HandlerCollection@1e6e305
+2010-09-05 10:25:03,234 DEBUG org.mortbay.log: started HandlerCollection@1e6e305
+2010-09-05 10:25:03,234 DEBUG org.mortbay.log: starting Server@45e228
+2010-09-05 10:25:03,234 DEBUG org.mortbay.log: started org.mortbay.jetty.nio.SelectChannelConnector$1@146b6db
+2010-09-05 10:25:03,235 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:26412
+2010-09-05 10:25:03,235 DEBUG org.mortbay.log: started SelectChannelConnector@0.0.0.0:26412
+2010-09-05 10:25:03,235 DEBUG org.mortbay.log: started Server@45e228
+2010-09-05 10:25:06,613 DEBUG org.apache.hadoop.ipc.Client: IPC Client (47) connection to localhost/127.0.0.1:26410 from franck: closed
+2010-09-05 10:25:06,614 DEBUG org.apache.hadoop.ipc.Client: IPC Client (47) connection to localhost/127.0.0.1:26410 from franck: stopped, remaining connections 0
+2010-09-05 10:25:06,613 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 10:25:25,049 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:55146; # active connections: 1; # queued calls: 0
+2010-09-05 10:25:25,074 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.ipc.VersionedProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:25:25,074 DEBUG org.apache.hadoop.ipc.Server:  got #0
+2010-09-05 10:25:25,075 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #0 from 127.0.0.1:55146
+2010-09-05 10:25:25,075 DEBUG org.apache.hadoop.ipc.Server: Served: getProtocolVersion queueTime= 0 procesingTime= 0
+2010-09-05 10:25:25,075 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:55146
+2010-09-05 10:25:25,076 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:55146 Wrote 22 bytes.
+2010-09-05 10:25:25,080 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:55147; # active connections: 2; # queued calls: 0
+2010-09-05 10:25:25,081 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:25:25,081 DEBUG org.apache.hadoop.ipc.Server:  got #1
+2010-09-05 10:25:25,082 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #1 from 127.0.0.1:55147
+2010-09-05 10:25:25,083 DEBUG org.apache.hadoop.ipc.Server: Served: versionRequest queueTime= 1 procesingTime= 0
+2010-09-05 10:25:25,083 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:55147
+2010-09-05 10:25:25,084 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:55147 Wrote 138 bytes.
+2010-09-05 10:25:35,072 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 2
+2010-09-05 10:25:35,085 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 10:25:40,547 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Client connected with peer ID: urn:jxta:uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103
+2010-09-05 10:25:40,826 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:55148; # active connections: 1; # queued calls: 0
+2010-09-05 10:25:40,829 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 10:25:40,829 DEBUG org.apache.hadoop.ipc.Server:  got #2
+2010-09-05 10:25:40,835 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #2 from 127.0.0.1:55148
+2010-09-05 10:25:40,836 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:26411 storage DS-1506260910-127.0.0.1-26411-1283667648189
+2010-09-05 10:25:40,839 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.unprotectedAddDatanode: node 127.0.0.1:26411 is added to datanodeMap.
+2010-09-05 10:25:40,840 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:26411
+2010-09-05 10:25:40,840 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 1
+Expected number of leaves:1
+/default-rack/127.0.0.1:26411
+
+2010-09-05 10:25:40,840 DEBUG org.apache.hadoop.ipc.Server: Served: register queueTime= 0 procesingTime= 5
+2010-09-05 10:25:40,847 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:55148
+2010-09-05 10:25:40,848 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:55148 Wrote 212 bytes.
+2010-09-05 10:25:40,872 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 10:25:40,873 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 10:25:40,874 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: A new P2P Ubeeko Socket service has been found.
+2010-09-05 10:25:40,874 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Adding new mapping: urn:jxta:uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103 / Ubeeko-165-DataNode-Peer:26421
+2010-09-05 10:25:40,893 DEBUG org.apache.hadoop.ipc.Server:  got #3
+2010-09-05 10:25:40,894 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #3 from 127.0.0.1:55148
+2010-09-05 10:25:40,895 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-09-05 10:25:40,895 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:55148
+2010-09-05 10:25:40,899 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:40,899 DEBUG org.apache.hadoop.ipc.Server:  got #4
+2010-09-05 10:25:40,903 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #4 from 127.0.0.1:55148
+2010-09-05 10:25:40,904 DEBUG org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blockReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 10:25:40,904 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 10:25:40,910 DEBUG org.apache.hadoop.ipc.Server: Served: blockReport queueTime= 1 procesingTime= 7
+2010-09-05 10:25:40,910 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:55148
+2010-09-05 10:25:40,912 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:55148 Wrote 129 bytes.
+2010-09-05 10:25:43,870 DEBUG org.apache.hadoop.ipc.Server:  got #5
+2010-09-05 10:25:43,871 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #5 from 127.0.0.1:55148
+2010-09-05 10:25:43,873 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 1
+2010-09-05 10:25:43,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:55148
+2010-09-05 10:25:43,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:46,871 DEBUG org.apache.hadoop.ipc.Server:  got #6
+2010-09-05 10:25:46,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #6 from 127.0.0.1:55148
+2010-09-05 10:25:46,873 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 10:25:46,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:55148
+2010-09-05 10:25:46,874 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:49,872 DEBUG org.apache.hadoop.ipc.Server:  got #7
+2010-09-05 10:25:49,874 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #7 from 127.0.0.1:55148
+2010-09-05 10:25:49,874 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 10:25:49,874 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:55148
+2010-09-05 10:25:49,875 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:52,875 DEBUG org.apache.hadoop.ipc.Server:  got #8
+2010-09-05 10:25:52,882 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #8 from 127.0.0.1:55148
+2010-09-05 10:25:52,882 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 2 procesingTime= 0
+2010-09-05 10:25:52,883 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:55148
+2010-09-05 10:25:52,883 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:55,884 DEBUG org.apache.hadoop.ipc.Server:  got #9
+2010-09-05 10:25:55,889 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #9 from 127.0.0.1:55148
+2010-09-05 10:25:55,889 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 10:25:55,890 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:55148
+2010-09-05 10:25:55,890 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:25:58,877 DEBUG org.apache.hadoop.ipc.Server:  got #10
+2010-09-05 10:25:58,878 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #10 from 127.0.0.1:55148
+2010-09-05 10:25:58,878 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 10:25:58,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:55148
+2010-09-05 10:25:58,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:26:01,876 DEBUG org.apache.hadoop.ipc.Server:  got #11
+2010-09-05 10:26:01,878 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #11 from 127.0.0.1:55148
+2010-09-05 10:26:01,879 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 1
+2010-09-05 10:26:01,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:55148
+2010-09-05 10:26:01,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:26:04,877 DEBUG org.apache.hadoop.ipc.Server:  got #12
+2010-09-05 10:26:04,878 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #12 from 127.0.0.1:55148
+2010-09-05 10:26:04,878 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 10:26:04,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:55148
+2010-09-05 10:26:04,879 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:55148 Wrote 148 bytes.
+2010-09-05 10:26:08,161 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 10:29:48,485 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:34:48,485 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:39:48,485 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:39:48,486 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 127.0.0.1:26411
+2010-09-05 10:39:48,486 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.unprotectedRemoveDatanode: 127.0.0.1:26411 is out of service now.
+2010-09-05 10:39:48,486 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-05 10:39:48,486 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-05 10:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 10:44:48,486 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:49:48,486 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:54:48,486 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 10:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 10:59:48,487 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:04:48,487 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:09:48,488 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 11:14:48,488 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:19:48,488 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:24:48,489 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 11:29:48,489 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:34:48,489 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:39:48,490 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 11:44:48,490 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:49:48,491 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:54:48,491 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 11:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 11:59:48,491 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:04:48,492 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:09:48,492 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 12:14:48,493 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:19:48,493 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:24:48,493 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 12:29:48,494 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:34:48,494 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:37:53,218 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44472; # active connections: 1; # queued calls: 0
+2010-09-05 12:37:53,244 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.ipc.VersionedProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:37:53,245 DEBUG org.apache.hadoop.ipc.Server:  got #0
+2010-09-05 12:37:53,245 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #0 from 127.0.0.1:44472
+2010-09-05 12:37:53,245 DEBUG org.apache.hadoop.ipc.Server: Served: getProtocolVersion queueTime= 0 procesingTime= 0
+2010-09-05 12:37:53,245 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:44472
+2010-09-05 12:37:53,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:44472 Wrote 22 bytes.
+2010-09-05 12:37:53,252 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44473; # active connections: 2; # queued calls: 0
+2010-09-05 12:37:53,253 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:37:53,253 DEBUG org.apache.hadoop.ipc.Server:  got #1
+2010-09-05 12:37:53,254 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #1 from 127.0.0.1:44473
+2010-09-05 12:37:53,254 DEBUG org.apache.hadoop.ipc.Server: Served: versionRequest queueTime= 0 procesingTime= 0
+2010-09-05 12:37:53,255 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:44473
+2010-09-05 12:37:53,255 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:44473 Wrote 138 bytes.
+2010-09-05 12:38:03,248 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 2
+2010-09-05 12:38:03,256 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 12:38:08,046 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Client connected with peer ID: urn:jxta:uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103
+2010-09-05 12:38:08,231 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 12:38:08,232 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 12:38:08,236 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 12:38:08,237 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250330FD45CCC4F5B48278BCE844BDEA7077904
+2010-09-05 12:38:08,238 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44474; # active connections: 1; # queued calls: 0
+2010-09-05 12:38:08,240 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:38:08,240 DEBUG org.apache.hadoop.ipc.Server:  got #2
+2010-09-05 12:38:08,241 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #2 from 127.0.0.1:44474
+2010-09-05 12:38:08,242 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:26411 storage DS-1506260910-127.0.0.1-26411-1283667648189
+2010-09-05 12:38:08,242 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node restarted.
+2010-09-05 12:38:08,242 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-05 12:38:08,242 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-05 12:38:08,242 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:26411
+2010-09-05 12:38:08,242 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 1
+Expected number of leaves:1
+/default-rack/127.0.0.1:26411
+
+2010-09-05 12:38:08,242 DEBUG org.apache.hadoop.ipc.Server: Served: register queueTime= 1 procesingTime= 0
+2010-09-05 12:38:08,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:44474
+2010-09-05 12:38:08,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:44474 Wrote 212 bytes.
+2010-09-05 12:38:08,377 DEBUG org.apache.hadoop.ipc.Server:  got #3
+2010-09-05 12:38:08,378 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #3 from 127.0.0.1:44474
+2010-09-05 12:38:08,381 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-09-05 12:38:08,381 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:44474
+2010-09-05 12:38:08,382 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:08,386 DEBUG org.apache.hadoop.ipc.Server:  got #4
+2010-09-05 12:38:08,386 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #4 from 127.0.0.1:44474
+2010-09-05 12:38:08,386 DEBUG org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blockReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 12:38:08,387 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 12:38:08,387 DEBUG org.apache.hadoop.ipc.Server: Served: blockReport queueTime= 0 procesingTime= 1
+2010-09-05 12:38:08,387 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:44474
+2010-09-05 12:38:08,387 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:44474 Wrote 129 bytes.
+2010-09-05 12:38:08,452 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-05 12:38:08,453 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-05 12:38:08,454 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: A new P2P Ubeeko Socket service has been found.
+2010-09-05 12:38:08,454 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Adding new mapping: urn:jxta:uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103 / www.Ubeeko-165-DataNode-Peer.peer:26421
+2010-09-05 12:38:11,358 DEBUG org.apache.hadoop.ipc.Server:  got #5
+2010-09-05 12:38:11,359 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #5 from 127.0.0.1:44474
+2010-09-05 12:38:11,360 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:11,360 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:44474
+2010-09-05 12:38:11,360 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:14,357 DEBUG org.apache.hadoop.ipc.Server:  got #6
+2010-09-05 12:38:14,357 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #6 from 127.0.0.1:44474
+2010-09-05 12:38:14,358 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:14,358 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:44474
+2010-09-05 12:38:14,358 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:17,358 DEBUG org.apache.hadoop.ipc.Server:  got #7
+2010-09-05 12:38:17,359 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #7 from 127.0.0.1:44474
+2010-09-05 12:38:17,359 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:17,360 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:44474
+2010-09-05 12:38:17,360 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:20,361 DEBUG org.apache.hadoop.ipc.Server:  got #8
+2010-09-05 12:38:20,362 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #8 from 127.0.0.1:44474
+2010-09-05 12:38:20,362 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:20,363 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:44474
+2010-09-05 12:38:20,363 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:23,360 DEBUG org.apache.hadoop.ipc.Server:  got #9
+2010-09-05 12:38:23,361 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #9 from 127.0.0.1:44474
+2010-09-05 12:38:23,361 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:23,362 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:44474
+2010-09-05 12:38:23,362 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:26,363 DEBUG org.apache.hadoop.ipc.Server:  got #10
+2010-09-05 12:38:26,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #10 from 127.0.0.1:44474
+2010-09-05 12:38:26,365 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:26,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:44474
+2010-09-05 12:38:26,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:29,362 DEBUG org.apache.hadoop.ipc.Server:  got #11
+2010-09-05 12:38:29,363 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #11 from 127.0.0.1:44474
+2010-09-05 12:38:29,363 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:29,364 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:44474
+2010-09-05 12:38:29,364 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:32,363 DEBUG org.apache.hadoop.ipc.Server:  got #12
+2010-09-05 12:38:32,364 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #12 from 127.0.0.1:44474
+2010-09-05 12:38:32,364 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:32,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:44474
+2010-09-05 12:38:32,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:35,364 DEBUG org.apache.hadoop.ipc.Server:  got #13
+2010-09-05 12:38:35,365 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #13 from 127.0.0.1:44474
+2010-09-05 12:38:35,365 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:38:35,366 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #13 from 127.0.0.1:44474
+2010-09-05 12:38:35,366 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #13 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:38,365 DEBUG org.apache.hadoop.ipc.Server:  got #14
+2010-09-05 12:38:38,367 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #14 from 127.0.0.1:44474
+2010-09-05 12:38:38,368 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:38,368 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #14 from 127.0.0.1:44474
+2010-09-05 12:38:38,368 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #14 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:41,366 DEBUG org.apache.hadoop.ipc.Server:  got #15
+2010-09-05 12:38:41,368 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #15 from 127.0.0.1:44474
+2010-09-05 12:38:41,368 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:41,368 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #15 from 127.0.0.1:44474
+2010-09-05 12:38:41,369 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #15 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:44,391 DEBUG org.apache.hadoop.ipc.Server:  got #16
+2010-09-05 12:38:44,399 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #16 from 127.0.0.1:44474
+2010-09-05 12:38:44,400 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-09-05 12:38:44,400 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #16 from 127.0.0.1:44474
+2010-09-05 12:38:44,400 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #16 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:47,377 DEBUG org.apache.hadoop.ipc.Server:  got #17
+2010-09-05 12:38:47,383 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #17 from 127.0.0.1:44474
+2010-09-05 12:38:47,383 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:47,383 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #17 from 127.0.0.1:44474
+2010-09-05 12:38:47,383 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #17 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:50,369 DEBUG org.apache.hadoop.ipc.Server:  got #18
+2010-09-05 12:38:50,369 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #18 from 127.0.0.1:44474
+2010-09-05 12:38:50,370 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-09-05 12:38:50,370 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #18 from 127.0.0.1:44474
+2010-09-05 12:38:50,370 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #18 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:53,377 DEBUG org.apache.hadoop.ipc.Server:  got #19
+2010-09-05 12:38:53,386 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #19 from 127.0.0.1:44474
+2010-09-05 12:38:53,390 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 4
+2010-09-05 12:38:53,390 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #19 from 127.0.0.1:44474
+2010-09-05 12:38:53,393 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #19 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:56,371 DEBUG org.apache.hadoop.ipc.Server:  got #20
+2010-09-05 12:38:56,372 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #20 from 127.0.0.1:44474
+2010-09-05 12:38:56,373 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:56,373 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #20 from 127.0.0.1:44474
+2010-09-05 12:38:56,373 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #20 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:38:59,372 DEBUG org.apache.hadoop.ipc.Server:  got #21
+2010-09-05 12:38:59,373 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21 from 127.0.0.1:44474
+2010-09-05 12:38:59,373 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:38:59,373 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21 from 127.0.0.1:44474
+2010-09-05 12:38:59,373 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:39:02,373 DEBUG org.apache.hadoop.ipc.Server:  got #22
+2010-09-05 12:39:02,375 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #22 from 127.0.0.1:44474
+2010-09-05 12:39:02,376 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 1
+2010-09-05 12:39:02,376 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #22 from 127.0.0.1:44474
+2010-09-05 12:39:02,376 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #22 from 127.0.0.1:44474 Wrote 148 bytes.
+2010-09-05 12:39:05,265 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 12:39:48,495 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 12:41:06,522 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44482; # active connections: 1; # queued calls: 0
+2010-09-05 12:41:06,555 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.ipc.VersionedProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:41:06,555 DEBUG org.apache.hadoop.ipc.Server:  got #0
+2010-09-05 12:41:06,556 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #0 from 127.0.0.1:44482
+2010-09-05 12:41:06,556 DEBUG org.apache.hadoop.ipc.Server: Served: getProtocolVersion queueTime= 1 procesingTime= 0
+2010-09-05 12:41:06,556 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:44482
+2010-09-05 12:41:06,556 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:44482 Wrote 22 bytes.
+2010-09-05 12:41:06,564 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44483; # active connections: 2; # queued calls: 0
+2010-09-05 12:41:06,565 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:41:06,565 DEBUG org.apache.hadoop.ipc.Server:  got #1
+2010-09-05 12:41:06,566 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #1 from 127.0.0.1:44483
+2010-09-05 12:41:06,566 DEBUG org.apache.hadoop.ipc.Server: Served: versionRequest queueTime= 0 procesingTime= 0
+2010-09-05 12:41:06,567 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:44483
+2010-09-05 12:41:06,568 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:44483 Wrote 138 bytes.
+2010-09-05 12:41:16,558 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 2
+2010-09-05 12:41:16,568 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 12:41:23,131 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:44484; # active connections: 1; # queued calls: 0
+2010-09-05 12:41:23,134 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-05 12:41:23,134 DEBUG org.apache.hadoop.ipc.Server:  got #2
+2010-09-05 12:41:23,134 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #2 from 127.0.0.1:44484
+2010-09-05 12:41:23,135 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:26411 storage DS-1506260910-127.0.0.1-26411-1283667648189
+2010-09-05 12:41:23,135 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node restarted.
+2010-09-05 12:41:23,135 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-05 12:41:23,135 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-05 12:41:23,135 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:26411
+2010-09-05 12:41:23,135 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 1
+Expected number of leaves:1
+/default-rack/127.0.0.1:26411
+
+2010-09-05 12:41:23,135 DEBUG org.apache.hadoop.ipc.Server: Served: register queueTime= 0 procesingTime= 1
+2010-09-05 12:41:23,136 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:44484
+2010-09-05 12:41:23,137 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:44484 Wrote 212 bytes.
+2010-09-05 12:41:23,171 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-05 12:41:23,174 DEBUG org.apache.hadoop.ipc.Server:  got #3
+2010-09-05 12:41:23,175 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #3 from 127.0.0.1:44484
+2010-09-05 12:41:23,175 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:23,175 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:44484
+2010-09-05 12:41:23,175 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:23,179 DEBUG org.apache.hadoop.ipc.Server:  got #4
+2010-09-05 12:41:23,182 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #4 from 127.0.0.1:44484
+2010-09-05 12:41:23,182 DEBUG org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blockReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 12:41:23,182 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: from 127.0.0.1:26411 0 blocks
+2010-09-05 12:41:23,182 DEBUG org.apache.hadoop.ipc.Server: Served: blockReport queueTime= 3 procesingTime= 0
+2010-09-05 12:41:23,182 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:44484
+2010-09-05 12:41:23,183 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:44484 Wrote 129 bytes.
+2010-09-05 12:41:23,185 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-05 12:41:26,145 DEBUG org.apache.hadoop.ipc.Server:  got #5
+2010-09-05 12:41:26,148 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #5 from 127.0.0.1:44484
+2010-09-05 12:41:26,148 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:26,148 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:44484
+2010-09-05 12:41:26,148 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:29,146 DEBUG org.apache.hadoop.ipc.Server:  got #6
+2010-09-05 12:41:29,147 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #6 from 127.0.0.1:44484
+2010-09-05 12:41:29,148 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-09-05 12:41:29,148 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:44484
+2010-09-05 12:41:29,148 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:32,148 DEBUG org.apache.hadoop.ipc.Server:  got #7
+2010-09-05 12:41:32,150 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #7 from 127.0.0.1:44484
+2010-09-05 12:41:32,150 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-05 12:41:32,150 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:44484
+2010-09-05 12:41:32,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:35,150 DEBUG org.apache.hadoop.ipc.Server:  got #8
+2010-09-05 12:41:35,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #8 from 127.0.0.1:44484
+2010-09-05 12:41:35,151 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:35,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:44484
+2010-09-05 12:41:35,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:38,149 DEBUG org.apache.hadoop.ipc.Server:  got #9
+2010-09-05 12:41:38,150 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #9 from 127.0.0.1:44484
+2010-09-05 12:41:38,150 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:38,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:44484
+2010-09-05 12:41:38,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:41,150 DEBUG org.apache.hadoop.ipc.Server:  got #10
+2010-09-05 12:41:41,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #10 from 127.0.0.1:44484
+2010-09-05 12:41:41,151 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:41,151 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:44484
+2010-09-05 12:41:41,152 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:44,156 DEBUG org.apache.hadoop.ipc.Server:  got #11
+2010-09-05 12:41:44,157 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #11 from 127.0.0.1:44484
+2010-09-05 12:41:44,157 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:44,157 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:44484
+2010-09-05 12:41:44,157 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:47,153 DEBUG org.apache.hadoop.ipc.Server:  got #12
+2010-09-05 12:41:47,154 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #12 from 127.0.0.1:44484
+2010-09-05 12:41:47,154 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-05 12:41:47,155 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:44484
+2010-09-05 12:41:47,155 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:44484 Wrote 148 bytes.
+2010-09-05 12:41:49,601 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-05 12:44:48,495 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:49:48,495 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:54:48,496 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 12:54:48,496 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 127.0.0.1:26411
+2010-09-05 12:54:48,496 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.unprotectedRemoveDatanode: 127.0.0.1:26411 is out of service now.
+2010-09-05 12:54:48,496 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-05 12:54:48,497 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-05 12:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 12:59:48,496 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:04:48,497 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:09:48,497 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 13:14:48,497 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:19:48,498 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:24:48,498 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 13:29:48,498 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:34:48,499 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:39:48,499 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 13:44:48,499 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:49:48,500 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:54:48,500 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 13:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 13:59:48,500 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:04:48,501 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:09:48,501 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 14:14:48,502 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:19:48,502 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:24:48,502 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 14:29:48,503 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:34:48,503 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:39:48,503 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 14:44:48,504 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:49:48,504 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:54:48,505 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 14:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 14:59:48,505 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:04:48,505 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:09:48,506 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 15:14:48,506 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:19:48,506 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:24:48,507 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 15:29:48,507 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:34:48,508 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:39:48,508 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 15:44:48,508 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:49:48,509 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:54:48,509 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 15:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 15:59:48,510 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:04:48,510 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:09:48,510 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 16:14:48,514 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:19:48,514 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:24:48,515 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 16:29:48,515 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:34:48,515 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:39:48,516 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 16:44:48,516 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:49:48,517 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:54:48,517 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 16:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 16:59:48,517 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:04:48,518 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:09:48,518 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 17:14:48,519 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:19:48,519 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:24:48,519 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 17:29:48,520 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:34:48,520 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:39:48,520 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 17:44:48,521 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:49:48,521 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:54:48,521 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 17:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 17:59:48,522 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:04:48,522 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:09:48,522 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 18:14:48,523 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:19:48,523 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:24:48,524 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 18:29:48,524 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:34:48,524 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:39:48,525 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 18:44:48,525 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:49:48,526 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:54:48,526 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 18:54:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 18:59:48,526 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:04:48,527 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:09:48,527 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:09:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 19:14:48,527 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:19:48,528 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:24:48,528 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:24:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 19:29:48,529 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:34:48,529 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:39:48,530 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:39:56,396 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-05 19:44:48,530 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-05 19:49:48,530 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q

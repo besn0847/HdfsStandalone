@@ -1,0 +1,242 @@
+<project name="Hadoop" default="compile-hdfs-classes"
+	basedir="/home/franck/Documents/workspace/hadoop-0.20.2-binc"
+   xmlns:ivy="antlib:org.apache.ivy.ant"> 
+   
+  <!-- Target data properties -->
+  <property name="name" value="binc"/>
+  <property name="version" value="0.20.2.b3"/>
+  <property name="final.name" value="${name}-${version}"/>
+  
+  <!-- Target data properties -->
+  <property name="build.dir" value="${basedir}/build"/>
+  <property name="build.src" value="${build.dir}/src"/>
+  <property name="build.classes" value="${build.dir}/classes"/>
+  <property name="build.webapps" value="${build.dir}/webapps"/>
+  <property name="distrib.dir" value="${basedir}/distrib"/>
+  <property name="distriblib.dir" value="${distrib.dir}/lib"/>
+  <property name="distribbin.dir" value="${distrib.dir}/bin"/>
+  <property name="distribetc.dir" value="${distrib.dir}/etc"/>
+  
+  <!-- Source data properties -->
+  <property name="conf.dir" value="${basedir}/etc"/>
+  <property name="src.dir" value="${basedir}/src"/> 
+  <property name="core.src.dir" value="${basedir}/src-core"/>
+  <property name="hdfs.src.dir" value="${basedir}/src-hdfs"/>
+  <property name="src.webapps" value="${src.dir}/webapps"/>
+  <property name="lib.dir" value="${basedir}/lib"/>
+  <property name="bin.dir" value="${basedir}/bin"/>
+
+<!-- Properties related to compilation rules -->  
+  <property name="build.encoding" value="ISO-8859-1"/>
+  <property name="javac.debug" value="on"/>
+  <property name="javac.optimize" value="on"/>
+  <property name="javac.deprecation" value="off"/>
+  <property name="javac.version" value="1.6"/>
+  <property name="javac.args" value=""/>
+  <property name="javac.args.warnings" value="-Xlint:unchecked"/>
+
+<path id="jsp.classpath">
+    <pathelement location="${build.classes}"/>
+    <pathelement location="${build.dir}"/>
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+      <exclude name="**/excluded/" />
+    </fileset>
+    <pathelement location="${conf.dir}"/>
+  </path>
+  
+<path id="classpath">
+    <pathelement location="${build.classes}"/>
+    <pathelement location="${build.dir}"/>
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+      <exclude name="**/excluded/" />
+    </fileset>
+    <pathelement location="${conf.dir}"/>
+</path>
+
+<target name="init">    
+    <mkdir dir="${build.dir}"/>
+    <mkdir dir="${build.classes}"/>
+    <mkdir dir="${build.src}"/>
+    <mkdir dir="${build.webapps}/hdfs/WEB-INF"/>
+    <mkdir dir="${build.webapps}/datanode/WEB-INF"/>
+    <mkdir dir="${build.webapps}/webdav/WEB-INF"/>
+	<mkdir dir="${build.webapps}/ajaxfilebrowser/WEB-INF"/>
+    <mkdir dir="${distrib.dir}"/>
+    <mkdir dir="${distribbin.dir}"/>
+    <mkdir dir="${distriblib.dir}"/>
+    <mkdir dir="${distribetc.dir}"/>
+    
+    <copy todir="${distriblib.dir}" includeEmptyDirs="false">
+      <fileset dir="${lib.dir}">
+      	<include name="xmlenc-0.52.jar" />
+	 	<include name="jets3t-0.6.1.jar" />
+      	<include name="kfs-0.2.2.jar" />
+      	<include name="jetty-6.1.14.jar" />
+      	<include name="commons-logging-1.0.4.jar" />   
+      	<include name="commons-net-1.4.1.jar" /> 
+      	<include name="servlet-api-2.5-6.1.14.jar" />
+      	<include name="log4j-1.2.15.jar" />
+      	<include name="jetty-util-6.1.14.jar" />
+      	<include name="commons-cli-1.2.jar" />  
+      	<include name="commons-codec-1.3.jar" />
+      	<include name="jsp-api-2.1.jar" />
+      	<include name="jsp-2.1.jar" />
+      	<include name="jackrabbit-jcr-commons-2.0.0.jar" />
+      	<include name="jackrabbit-jcr-server-2.0.0.jar" />
+      	<include name="jackrabbit-webdav-2.0.0.jar" />
+      	<include name="jcr-1.0.jar" />
+      	<include name="xercesImpl-2.8.1.jar" />
+      	<include name="slf4j-log4j12-1.4.3.jar" />
+      	<include name="slf4j-api-1.4.3.jar" />
+      	<include name="commons-collections-3.2.jar" />
+      	<include name="tika-core-0.5.jar" />
+      	<include name="tika-parsers-0.5.jar" />
+      	<include name="jxta-2.5.jar" />
+      </fileset>
+    </copy>  
+    
+    <copy todir="${distribbin.dir}" includeEmptyDirs="false">
+    	<fileset dir="${bin.dir}">
+    		<include name="start-namenode.sh" />
+    		<include name="start-datanode.sh" />
+    		<include name="hadoop-daemon.sh" />
+			<include name="hadoop-env.sh" />
+    		<include name="hadoop-config.sh" />
+    		<include name="hadoop" />
+    		<include name="datanode.bat" />
+    		<include name="df.exe" />
+			<include name="du.exe" />
+			<include name="libiconv2.dll" />
+			<include name="libintl3.dll" />
+    	</fileset>
+    </copy>	
+    
+    <replace file="${distribbin.dir}/datanode.bat" token="__VERSION__" value="${name}-${version}"/>
+    
+    <copy todir="${distribetc.dir}" includeEmptyDirs="false">
+    	<fileset dir="${conf.dir}">
+			<include name="configuration.xsl" />
+    		<include name="core-site.xml" />
+			<include name="log4j.properties" />
+    		<include name="core-default.xml" />
+    		<include name="hadoop-policy.xml" />
+    		<include name="hdfs-site.xml" />
+    		<include name="hosts.deny" />
+			<include name="ssl-client.xml" />
+    		<include name="hdfs-default.xml" />
+    		<include name="hosts.allow" />
+    		<include name="ssl-server.xml" />
+    		<include name="keystore" />
+    		<include name="jetty.xml" />
+    	</fileset>
+    </copy>  
+    
+    <exec executable="sh">
+       <arg line="saveVersion.sh ${version}"/>
+    </exec>
+    
+</target>
+
+<target name="compile-core-classes" depends="init, compile-rcc-compiler">
+     <taskdef classname="org.apache.jasper.JspC" name="jsp-compile" >
+        <classpath refid="classpath"/>
+     </taskdef>
+     <javac 
+     encoding="${build.encoding}" 
+     srcdir="${core.src.dir}"	
+     includes="org/apache/hadoop/**/*.java"
+     destdir="${build.classes}"
+     debug="${javac.debug}"
+     optimize="${javac.optimize}"
+     target="${javac.version}"
+     source="${javac.version}"
+     deprecation="${javac.deprecation}">
+      <compilerarg line="${javac.args} ${javac.args.warnings}" />
+      <classpath refid="classpath"/>
+    </javac>     
+</target>
+
+<target name="compile-hdfs-classes" depends="compile-core-classes">
+     <jsp-compile
+     uriroot="${src.webapps}/hdfs"
+     outputdir="${build.src}"
+     package="org.apache.hadoop.hdfs.server.namenode"
+     webxml="${build.webapps}/hdfs/WEB-INF/web.xml">
+    </jsp-compile>
+
+    <jsp-compile
+     uriroot="${src.webapps}/datanode"
+     outputdir="${build.src}"
+     package="org.apache.hadoop.hdfs.server.datanode"
+     webxml="${build.webapps}/datanode/WEB-INF/web.xml">
+    </jsp-compile> 
+    
+    <javac 
+     encoding="${build.encoding}" 
+     srcdir="${hdfs.src.dir};${build.src}"	
+     includes="org/apache/hadoop/**/*.java"
+     destdir="${build.classes}"
+     debug="${javac.debug}"
+     optimize="${javac.optimize}"
+     target="${javac.version}"
+     source="${javac.version}"
+     deprecation="${javac.deprecation}">
+      <compilerarg line="${javac.args} ${javac.args.warnings}" />
+      <classpath refid="classpath"/>
+    </javac>     
+</target>
+
+	<target name="compile-ubeeko-classes" depends="compile-hdfs-classes">
+	     <javac 
+	     encoding="${build.encoding}" 
+	     srcdir="${src.dir}"	
+	     includes="com/agorasoft/ubeeko/**/*.java"
+	     destdir="${build.classes}"
+	     debug="${javac.debug}"
+	     optimize="${javac.optimize}"
+	     target="${javac.version}"
+	     source="${javac.version}"
+	     deprecation="${javac.deprecation}">
+	      <compilerarg line="${javac.args} ${javac.args.warnings}" />
+	      <classpath refid="classpath"/>
+	    </javac>     
+</target>
+	
+<target name="compile-rcc-compiler" depends="init">   
+    <javac 
+        encoding="${build.encoding}" 
+        srcdir="${core.src.dir}"
+        includes="org/apache/hadoop/record/compiler/**/*.java"
+        destdir="${build.classes}"
+        debug="${javac.debug}"
+        optimize="${javac.optimize}"
+        target="${javac.version}"
+        source="${javac.version}"
+        deprecation="${javac.deprecation}">
+        <compilerarg line="${javac.args}"/>
+        <classpath refid="classpath"/>
+    </javac>
+    <taskdef name="recordcc" classname="org.apache.hadoop.record.compiler.ant.RccTask">
+      <classpath refid="classpath" />
+    </taskdef>
+</target>
+
+<target name="jar" depends="compile-ubeeko-classes" description="Make hadoop.jar">
+	 <copy todir="${basedir}/webapps">
+      <fileset dir="${src.webapps}" excludes="**/*.jsp"/>
+    </copy>  
+    <jar jarfile="${distriblib.dir}/${final.name}-hdfs.jar"
+         basedir="${build.classes}">
+      <manifest>
+        <section name="org/apache/hadoop">
+          <attribute name="Implementation-Title" value="Hadoop"/>
+          <attribute name="Implementation-Version" value="${version}"/>
+          <attribute name="Implementation-Vendor" value="Apache"/>
+        </section>
+      </manifest>
+    </jar>
+</target>
+
+</project>

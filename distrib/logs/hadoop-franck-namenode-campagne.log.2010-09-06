@@ -1,0 +1,150 @@
+2010-09-06 20:56:24,757 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 20:58:24,161 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:03:24,162 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:08:24,162 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:11:30,739 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:59836; # active connections: 1; # queued calls: 0
+2010-09-06 21:11:30,771 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.ipc.VersionedProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-06 21:11:30,771 DEBUG org.apache.hadoop.ipc.Server:  got #0
+2010-09-06 21:11:30,771 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #0 from 127.0.0.1:59836
+2010-09-06 21:11:30,772 DEBUG org.apache.hadoop.ipc.Server: Served: getProtocolVersion queueTime= 1 procesingTime= 0
+2010-09-06 21:11:30,772 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:59836
+2010-09-06 21:11:30,772 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #0 from 127.0.0.1:59836 Wrote 22 bytes.
+2010-09-06 21:11:30,777 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:59837; # active connections: 2; # queued calls: 0
+2010-09-06 21:11:30,779 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-06 21:11:30,779 DEBUG org.apache.hadoop.ipc.Server:  got #1
+2010-09-06 21:11:30,779 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #1 from 127.0.0.1:59837
+2010-09-06 21:11:30,779 DEBUG org.apache.hadoop.ipc.Server: Served: versionRequest queueTime= 0 procesingTime= 0
+2010-09-06 21:11:30,779 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:59837
+2010-09-06 21:11:30,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #1 from 127.0.0.1:59837 Wrote 138 bytes.
+2010-09-06 21:11:40,774 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 2
+2010-09-06 21:11:40,781 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-06 21:11:53,821 INFO com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Client connected with peer ID: urn:jxta:uuid-7FC2FABD655448568259BEA7397D9BD6C24BBC9502694418AA40E82EF147EDB103
+2010-09-06 21:11:54,211 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,211 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,212 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,216 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,223 DEBUG org.apache.hadoop.ipc.Server: Server connection from 127.0.0.1:59838; # active connections: 1; # queued calls: 0
+2010-09-06 21:11:54,228 DEBUG org.apache.hadoop.ipc.Server: Successfully authorized org.apache.hadoop.hdfs.server.protocol.DatanodeProtocol-franck,franck,adm,dialout,cdrom,video,plugdev,lpadmin,admin,sambashare,bacula,davfs2
+2010-09-06 21:11:54,228 DEBUG org.apache.hadoop.ipc.Server:  got #2
+2010-09-06 21:11:54,229 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #2 from 127.0.0.1:59838
+2010-09-06 21:11:54,229 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 127.0.0.1:26411 storage DS-1506260910-127.0.0.1-26411-1283667648189
+2010-09-06 21:11:54,229 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node restarted.
+2010-09-06 21:11:54,230 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-06 21:11:54,230 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-06 21:11:54,230 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/127.0.0.1:26411
+2010-09-06 21:11:54,230 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 1
+Expected number of leaves:1
+/default-rack/127.0.0.1:26411
+
+2010-09-06 21:11:54,230 DEBUG org.apache.hadoop.ipc.Server: Served: register queueTime= 0 procesingTime= 1
+2010-09-06 21:11:54,230 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:59838
+2010-09-06 21:11:54,230 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #2 from 127.0.0.1:59838 Wrote 212 bytes.
+2010-09-06 21:11:54,256 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,256 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E50472050325033E5E4A798891F49AE89768BFBD2AB2D6004
+2010-09-06 21:11:54,303 DEBUG org.apache.hadoop.ipc.Server:  got #3
+2010-09-06 21:11:54,304 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #3 from 127.0.0.1:59838
+2010-09-06 21:11:54,304 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:11:54,305 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:59838
+2010-09-06 21:11:54,306 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #3 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:11:54,312 DEBUG org.apache.hadoop.ipc.Server:  got #4
+2010-09-06 21:11:54,313 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #4 from 127.0.0.1:59838
+2010-09-06 21:11:54,313 DEBUG org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blockReport: from 127.0.0.1:26411 0 blocks
+2010-09-06 21:11:54,313 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: from 127.0.0.1:26411 0 blocks
+2010-09-06 21:11:54,314 DEBUG org.apache.hadoop.ipc.Server: Served: blockReport queueTime= 0 procesingTime= 1
+2010-09-06 21:11:54,314 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:59838
+2010-09-06 21:11:54,314 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #4 from 127.0.0.1:59838 Wrote 129 bytes.
+2010-09-06 21:11:57,242 DEBUG org.apache.hadoop.ipc.Server:  got #5
+2010-09-06 21:11:57,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #5 from 127.0.0.1:59838
+2010-09-06 21:11:57,244 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-06 21:11:57,244 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:59838
+2010-09-06 21:11:57,244 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #5 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:00,241 DEBUG org.apache.hadoop.ipc.Server:  got #6
+2010-09-06 21:12:00,242 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #6 from 127.0.0.1:59838
+2010-09-06 21:12:00,242 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:00,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:59838
+2010-09-06 21:12:00,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #6 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:03,242 DEBUG org.apache.hadoop.ipc.Server:  got #7
+2010-09-06 21:12:03,243 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #7 from 127.0.0.1:59838
+2010-09-06 21:12:03,243 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:03,244 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:59838
+2010-09-06 21:12:03,244 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #7 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:06,245 DEBUG org.apache.hadoop.ipc.Server:  got #8
+2010-09-06 21:12:06,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #8 from 127.0.0.1:59838
+2010-09-06 21:12:06,246 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:06,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:59838
+2010-09-06 21:12:06,247 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #8 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:09,244 DEBUG org.apache.hadoop.ipc.Server:  got #9
+2010-09-06 21:12:09,245 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #9 from 127.0.0.1:59838
+2010-09-06 21:12:09,245 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:09,245 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:59838
+2010-09-06 21:12:09,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #9 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:12,245 DEBUG org.apache.hadoop.ipc.Server:  got #10
+2010-09-06 21:12:12,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #10 from 127.0.0.1:59838
+2010-09-06 21:12:12,246 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:12,247 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:59838
+2010-09-06 21:12:12,247 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #10 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:15,245 DEBUG org.apache.hadoop.ipc.Server:  got #11
+2010-09-06 21:12:15,246 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #11 from 127.0.0.1:59838
+2010-09-06 21:12:15,247 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-09-06 21:12:15,247 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:59838
+2010-09-06 21:12:15,247 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #11 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:18,247 DEBUG org.apache.hadoop.ipc.Server:  got #12
+2010-09-06 21:12:18,248 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #12 from 127.0.0.1:59838
+2010-09-06 21:12:18,248 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:18,249 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:59838
+2010-09-06 21:12:18,249 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #12 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:21,248 DEBUG org.apache.hadoop.ipc.Server:  got #13
+2010-09-06 21:12:21,249 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #13 from 127.0.0.1:59838
+2010-09-06 21:12:21,249 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-09-06 21:12:21,250 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #13 from 127.0.0.1:59838
+2010-09-06 21:12:21,250 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #13 from 127.0.0.1:59838 Wrote 148 bytes.
+2010-09-06 21:12:22,498 DEBUG org.apache.hadoop.ipc.Server: IPC Server listener on 26410: disconnecting client 127.0.0.1. Number of active connections: 1
+2010-09-06 21:13:24,163 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:18:24,163 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:23:24,162 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 127.0.0.1:26411
+2010-09-06 21:23:24,162 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.unprotectedRemoveDatanode: 127.0.0.1:26411 is out of service now.
+2010-09-06 21:23:24,162 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/127.0.0.1:26411
+2010-09-06 21:23:24,163 DEBUG org.apache.hadoop.net.NetworkTopology: NetworkTopology became:
+Number of racks: 0
+Expected number of leaves:0
+
+2010-09-06 21:23:24,163 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:26:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 21:28:24,164 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:33:24,164 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:38:24,164 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:41:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 21:43:24,165 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:48:24,165 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:53:24,166 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 21:56:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 21:58:24,166 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:03:24,167 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:08:24,167 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:11:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 22:13:24,168 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:18:24,168 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:23:24,169 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:26:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 22:28:24,169 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:33:24,170 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:38:24,170 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:41:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 22:43:24,171 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:48:24,171 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:53:24,172 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 22:56:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 22:58:24,172 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:03:24,173 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:08:24,173 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:11:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 23:13:24,174 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:18:24,174 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:23:24,175 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:26:24,202 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-09-06 23:28:24,175 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-09-06 23:33:24,175 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q

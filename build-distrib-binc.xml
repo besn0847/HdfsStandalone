@@ -1,0 +1,341 @@
+<project name="Hadoop" default="init" 
+	basedir="/home/franck/Documents/workspace/hadoop-0.20.2-binc"
+   xmlns:ivy="antlib:org.apache.ivy.ant"> 
+   
+  <!-- Target data properties -->
+  <property name="name" value="binc"/>
+  <property name="version" value="0.20.2.b3"/>
+  <property name="final.name" value="${name}-${version}"/>
+  
+  <!-- Target data properties -->
+  <property name="namenode.linux.dir" value="${basedir}/distrib/namenode/linux"/>  
+  <property name="namenode.linux.bindir" value="${namenode.linux.dir}/bin"/>
+  <property name="namenode.linux.libdir" value="${namenode.linux.dir}/lib"/>
+  <property name="namenode.linux.etcdir" value="${namenode.linux.dir}/etc"/>
+  <property name="namenode.linux.logdir" value="${namenode.linux.dir}/logs"/>
+  <property name="namenode.linux.vardir" value="${namenode.linux.dir}/var"/>
+  <property name="namenode.linux.tmpdir" value="${namenode.linux.dir}/tmp"/>
+  <property name="namenode.linux.webdir" value="${namenode.linux.dir}/webapps"/>
+  
+  <property name="datanode.linux.dir" value="${basedir}/distrib/datanode/linux"/>  
+  <property name="datanode.linux.bindir" value="${datanode.linux.dir}/bin"/>
+  <property name="datanode.linux.libdir" value="${datanode.linux.dir}/lib"/>
+  <property name="datanode.linux.etcdir" value="${datanode.linux.dir}/etc"/>
+  <property name="datanode.linux.logdir" value="${datanode.linux.dir}/logs"/>
+  <property name="datanode.linux.vardir" value="${datanode.linux.dir}/var"/>
+  <property name="datanode.linux.tmpdir" value="${datanode.linux.dir}/tmp"/>
+  <property name="datanode.linux.webdir" value="${datanode.linux.dir}/webapps"/>  
+ 
+  <property name="datanode.windows.dir" value="${basedir}/distrib/datanode/windows"/>  
+  <property name="datanode.windows.bindir" value="${datanode.windows.dir}/bin"/>
+  <property name="datanode.windows.libdir" value="${datanode.windows.dir}/lib"/>
+  <property name="datanode.windows.etcdir" value="${datanode.windows.dir}/etc"/>
+  <property name="datanode.windows.logdir" value="${datanode.windows.dir}/logs"/>
+  <property name="datanode.windows.vardir" value="${datanode.windows.dir}/var"/>
+  <property name="datanode.windows.tmpdir" value="${datanode.windows.dir}/tmp"/>
+  <property name="datanode.windows.webdir" value="${datanode.windows.dir}/webapps"/>   
+  
+  <!-- Source data properties -->
+  <property name="distrib.dir" value="${basedir}/distrib"/>
+  <property name="distriblib.dir" value="${distrib.dir}/lib"/>
+  <property name="distribweb.dir" value="${distrib.dir}/webapps"/>
+  <property name="distribbin.dir" value="${distrib.dir}/bin"/>
+  <property name="distribetc.dir" value="${distrib.dir}/etc"/>
+
+<target name="init">        
+ 	 <mkdir dir="${distribweb.dir}"/>
+ 	 
+	 <copy todir="${distribweb.dir}" includeEmptyDirs="false">
+      <fileset dir="${basedir}/webapps">
+      </fileset>
+    </copy>  
+</target>
+
+<target name="namenode-linux" depends="init" description="Build the linux namenode distrib">
+ 	 <mkdir dir="${namenode.linux.dir}"/>
+ 	 <mkdir dir="${namenode.linux.bindir}"/>
+    <mkdir dir="${namenode.linux.libdir}"/>
+	 <mkdir dir="${namenode.linux.etcdir}"/>
+	 <mkdir dir="${namenode.linux.logdir}"/>
+    <mkdir dir="${namenode.linux.vardir}/pids"/>
+    <mkdir dir="${namenode.linux.tmpdir}"/>
+    <mkdir dir="${namenode.linux.webdir}/hdfs/WEB-INF"/>
+    <mkdir dir="${namenode.linux.webdir}/webdav/WEB-INF"/>
+	<mkdir dir="${namenode.linux.webdir}/ajaxfilebrowser/WEB-INF"/>
+    
+    <copy todir="${namenode.linux.libdir}" includeEmptyDirs="false">
+      <fileset dir="${distriblib.dir}">
+      	<include name="xmlenc-0.52.jar" />
+	   	<include name="jets3t-0.6.1.jar" />
+      	<include name="kfs-0.2.2.jar" />
+      	<include name="jetty-6.1.14.jar" />
+      	<include name="commons-logging-1.0.4.jar" />   
+      	<include name="commons-net-1.4.1.jar" /> 
+      	<include name="servlet-api-2.5-6.1.14.jar" />
+      	<include name="log4j-1.2.15.jar" />
+      	<include name="jetty-util-6.1.14.jar" />
+      	<include name="commons-cli-1.2.jar" />  
+      	<include name="commons-codec-1.3.jar" />
+      	<include name="jsp-api-2.1.jar" />
+      	<include name="jsp-2.1.jar" />
+      	<include name="jackrabbit-jcr-commons-2.0.0.jar" />
+      	<include name="jackrabbit-jcr-server-2.0.0.jar" />
+      	<include name="jackrabbit-webdav-2.0.0.jar" />
+      	<include name="tika-core-0.5.jar" />
+      	<include name="tika-parsers-0.5.jar" />
+      	<include name="jcr-1.0.jar" />
+      	<include name="xercesImpl-2.8.1.jar" />
+      	<include name="slf4j-log4j12-1.4.3.jar" />
+      	<include name="slf4j-api-1.4.3.jar" />
+      	<include name="commons-collections-3.2.jar" />
+      	<include name="${final.name}-hdfs.jar" /> 	
+      	<include name="jxta-2.5.jar" />
+      </fileset>
+    </copy>  
+    
+	 <copy todir="${namenode.linux.webdir}/hdfs/" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/">
+      	<include name="index.html" />
+      </fileset>
+    </copy> 
+    
+	 <copy todir="${namenode.linux.webdir}/hdfs/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>  
+
+	 <copy todir="${namenode.linux.webdir}/webdav/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/webdav/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>  
+    
+    <copy todir="${namenode.linux.webdir}/datanode/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/datanode/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>   
+    
+	<copy todir="${namenode.linux.webdir}/ajaxfilebrowser/WEB-INF" includeEmptyDirs="false">
+	      <fileset dir="${distribweb.dir}/ajaxfilebrowser/WEB-INF/">
+	      	<include name="web.xml" />
+	      </fileset>
+	</copy>   
+	
+	<copy todir="${namenode.linux.webdir}/ajaxfilebrowser/" includeEmptyDirs="false">
+			<fileset dir="${distribweb.dir}/ajaxfilebrowser/"/>
+	</copy>
+	
+    <copy todir="${namenode.linux.bindir}" includeEmptyDirs="false">
+      <fileset dir="${distribbin.dir}">
+      	<include name="start-namenode.sh" />
+    		<include name="hadoop-daemon.sh" />
+			<include name="hadoop-env.sh" />
+    		<include name="hadoop-config.sh" />
+    		<include name="hadoop" />
+      </fileset>
+    </copy>  
+
+    <chmod perm="ugo+rx">
+	 		<fileset dir="${namenode.linux.bindir}" />
+	 </chmod>
+
+	 <copy todir="${namenode.linux.etcdir}" includeEmptyDirs="false">
+      <fileset dir="${distribetc.dir}">
+      	<include name="configuration.xsl" />
+    		<include name="core-site.xml" />
+			<include name="log4j.properties" />
+    		<include name="core-default.xml" />
+    		<include name="hadoop-policy.xml" />
+    		<include name="hdfs-site.xml" />
+    		<include name="hosts.deny" />
+			<include name="ssl-client.xml" />
+    		<include name="hdfs-default.xml" />
+    		<include name="hosts.allow" />
+    		<include name="ssl-server.xml" />
+    		<include name="keystore" />
+      	<include name="jetty.xml" />
+      </fileset>
+    </copy>  
+    
+	<zip destfile="${basedir}/distrib/${name}-namenode-linux-${version}.zip"
+       basedir="${namenode.linux.dir}"
+       update="true"
+  	/>
+    
+</target>
+
+<target name="datanode-linux" depends="init" description="Build the linux datanode distrib">
+ 	 <mkdir dir="${datanode.linux.dir}"/>
+ 	 <mkdir dir="${datanode.linux.bindir}"/>
+    <mkdir dir="${datanode.linux.libdir}"/>
+	 <mkdir dir="${datanode.linux.etcdir}"/>
+	 <mkdir dir="${datanode.linux.logdir}"/>
+    <mkdir dir="${datanode.linux.vardir}/pids"/>
+    <mkdir dir="${datanode.linux.tmpdir}"/>
+    <mkdir dir="${datanode.linux.webdir}/hdfs/WEB-INF"/>
+    <mkdir dir="${datanode.linux.webdir}/datanode/WEB-INF"/>
+    
+    <copy todir="${datanode.linux.libdir}" includeEmptyDirs="false">
+      <fileset dir="${distriblib.dir}">
+      	<include name="xmlenc-0.52.jar" />
+	   	<include name="jets3t-0.6.1.jar" />
+      	<include name="kfs-0.2.2.jar" />
+      	<include name="jetty-6.1.14.jar" />
+      	<include name="commons-logging-1.0.4.jar" />   
+      	<include name="commons-net-1.4.1.jar" /> 
+      	<include name="servlet-api-2.5-6.1.14.jar" />
+      	<include name="log4j-1.2.15.jar" />
+      	<include name="jetty-util-6.1.14.jar" />
+      	<include name="commons-cli-1.2.jar" />  
+      	<include name="commons-codec-1.3.jar" />
+      	<include name="jsp-api-2.1.jar" />
+      	<include name="jsp-2.1.jar" />
+      	<include name="${final.name}-hdfs.jar" /> 	
+      	<include name="jxta-2.5.jar" />
+      </fileset>
+    </copy>
+    
+	 <copy todir="${datanode.linux.webdir}/hdfs/" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/">
+      	<include name="index.html" />
+      </fileset>
+    </copy> 
+    
+	 <copy todir="${datanode.linux.webdir}/hdfs/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>  
+    
+    <copy todir="${datanode.linux.webdir}/datanode/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/datanode/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy> 
+    
+    <copy todir="${datanode.linux.bindir}" includeEmptyDirs="false">
+      <fileset dir="${distribbin.dir}">
+      	<include name="start-datanode.sh" />
+    		<include name="hadoop-daemon.sh" />
+			<include name="hadoop-env.sh" />
+    		<include name="hadoop-config.sh" />
+    		<include name="hadoop" />
+      </fileset>
+    </copy> 
+    
+	 <chmod perm="ugo+rx">
+	 		<fileset dir="${datanode.linux.bindir}" />
+	 </chmod>
+
+	 <copy todir="${datanode.linux.etcdir}" includeEmptyDirs="false">
+      <fileset dir="${distribetc.dir}">
+      	<include name="configuration.xsl" />
+    		<include name="core-site.xml" />
+			<include name="log4j.properties" />
+    		<include name="core-default.xml" />
+    		<include name="hadoop-policy.xml" />
+    		<include name="hdfs-site.xml" />
+    		<include name="hosts.deny" />
+			<include name="ssl-client.xml" />
+    		<include name="hdfs-default.xml" />
+    		<include name="hosts.allow" />
+    		<include name="ssl-server.xml" />
+    		<include name="keystore" />
+      </fileset>
+    </copy>  
+    
+	 <zip destfile="${basedir}/distrib/${name}-datanode-linux-${version}.zip"
+       basedir="${datanode.linux.dir}"
+       update="true"
+	 />
+</target>
+
+<target name="datanode-windows" depends="init" description="Build the windows datanode distrib">
+ 	 <mkdir dir="${datanode.windows.dir}"/>
+ 	 <mkdir dir="${datanode.windows.bindir}"/>
+    <mkdir dir="${datanode.windows.libdir}"/>
+	 <mkdir dir="${datanode.windows.etcdir}"/>
+	 <mkdir dir="${datanode.windows.logdir}"/>
+    <mkdir dir="${datanode.windows.vardir}/pids"/>
+    <mkdir dir="${datanode.windows.tmpdir}"/>
+    <mkdir dir="${datanode.windows.webdir}/hdfs/WEB-INF"/>
+    <mkdir dir="${datanode.windows.webdir}/datanode/WEB-INF"/>
+    
+     <copy todir="${datanode.windows.libdir}" includeEmptyDirs="false">
+      <fileset dir="${distriblib.dir}">
+      	<include name="xmlenc-0.52.jar" />
+	   	<include name="jets3t-0.6.1.jar" />
+      	<include name="kfs-0.2.2.jar" />
+      	<include name="jetty-6.1.14.jar" />
+      	<include name="commons-logging-1.0.4.jar" />   
+      	<include name="commons-net-1.4.1.jar" /> 
+      	<include name="servlet-api-2.5-6.1.14.jar" />
+      	<include name="log4j-1.2.15.jar" />
+      	<include name="jetty-util-6.1.14.jar" />
+      	<include name="commons-cli-1.2.jar" />  
+      	<include name="commons-codec-1.3.jar" />
+      	<include name="jsp-api-2.1.jar" />
+      	<include name="jsp-2.1.jar" />
+      	<include name="${final.name}-hdfs.jar" /> 	
+      	<include name="jxta-2.5.jar" />
+      </fileset>
+    </copy>
+
+	 <copy todir="${datanode.windows.webdir}/hdfs/" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/">
+      	<include name="index.html" />
+      </fileset>
+    </copy> 
+    
+	 <copy todir="${datanode.windows.webdir}/hdfs/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/hdfs/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>  
+    
+    <copy todir="${datanode.windows.webdir}/datanode/WEB-INF" includeEmptyDirs="false">
+      <fileset dir="${distribweb.dir}/datanode/WEB-INF/">
+      	<include name="web.xml" />
+      </fileset>
+    </copy>
+    
+    <copy todir="${datanode.windows.bindir}" includeEmptyDirs="false">
+      <fileset dir="${distribbin.dir}">
+    		<include name="datanode.bat" />
+    		<include name="df.exe" />
+			<include name="du.exe" />
+			<include name="libiconv2.dll" />
+			<include name="libintl3.dll" />
+      </fileset>
+    </copy>      
+    
+    <chmod perm="ugo+rx">
+	 		<fileset dir="${datanode.windows.bindir}" />
+	 </chmod>
+
+	 <copy todir="${datanode.windows.etcdir}" includeEmptyDirs="false">
+      <fileset dir="${distribetc.dir}">
+      	<include name="configuration.xsl" />
+    		<include name="core-site.xml" />
+			<include name="log4j.properties" />
+    		<include name="core-default.xml" />
+    		<include name="hadoop-policy.xml" />
+    		<include name="hdfs-site.xml" />
+    		<include name="hosts.deny" />
+			<include name="ssl-client.xml" />
+    		<include name="hdfs-default.xml" />
+    		<include name="hosts.allow" />
+    		<include name="ssl-server.xml" />
+    		<include name="keystore" />
+      </fileset>
+    </copy> 
+    
+	 <zip destfile="${basedir}/distrib/${name}-datanode-windows-${version}.zip"
+       basedir="${datanode.windows.dir}"
+       update="true"
+	 /> 
+</target>
+
+</project>

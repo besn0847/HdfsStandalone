@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src-core"/>
+	<classpathentry kind="src" path="src-hdfs"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/binc-libs"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/ant-libs"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/jackrabbit-jcr-commons-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/jackrabbit-jcr-server-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/jackrabbit-webdav-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/tika-core-0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/tika-parsers-0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/franck/Documents/workspace/hadoop-0.20.2-binc/lib/jxta-2.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-6-openjdk"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

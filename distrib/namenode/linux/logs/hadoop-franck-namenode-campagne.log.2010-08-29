@@ -1,0 +1,1125 @@
+2010-08-29 16:25:29,445 DEBUG org.apache.hadoop.ipc.Server: Checking for old call responses.
+2010-08-29 16:25:29,593 DEBUG org.apache.hadoop.ipc.Server:  got #21290
+2010-08-29 16:25:29,594 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21290 from 127.0.0.1:54494
+2010-08-29 16:25:29,595 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:29,595 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21290 from 127.0.0.1:54494
+2010-08-29 16:25:29,595 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21290 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.ipc.Server:  got #21291
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21291 from 127.0.0.1:54494
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blockReport: from 127.0.0.1:26411 0 blocks
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.processReport: from 127.0.0.1:26411 0 blocks
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.ipc.Server: Served: blockReport queueTime= 0 procesingTime= 0
+2010-08-29 16:25:29,597 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21291 from 127.0.0.1:54494
+2010-08-29 16:25:29,598 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21291 from 127.0.0.1:54494 Wrote 129 bytes.
+2010-08-29 16:25:32,453 DEBUG org.apache.hadoop.ipc.Server:  got #21292
+2010-08-29 16:25:32,454 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21292 from 127.0.0.1:54494
+2010-08-29 16:25:32,454 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:32,454 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21292 from 127.0.0.1:54494
+2010-08-29 16:25:32,454 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21292 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:35,453 DEBUG org.apache.hadoop.ipc.Server:  got #21293
+2010-08-29 16:25:35,455 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21293 from 127.0.0.1:54494
+2010-08-29 16:25:35,455 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:35,455 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21293 from 127.0.0.1:54494
+2010-08-29 16:25:35,455 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21293 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:38,470 DEBUG org.apache.hadoop.ipc.Server:  got #21294
+2010-08-29 16:25:38,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21294 from 127.0.0.1:54494
+2010-08-29 16:25:38,475 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:25:38,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21294 from 127.0.0.1:54494
+2010-08-29 16:25:38,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21294 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:41,455 DEBUG org.apache.hadoop.ipc.Server:  got #21295
+2010-08-29 16:25:41,457 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21295 from 127.0.0.1:54494
+2010-08-29 16:25:41,457 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:41,457 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21295 from 127.0.0.1:54494
+2010-08-29 16:25:41,457 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21295 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:44,457 DEBUG org.apache.hadoop.ipc.Server:  got #21296
+2010-08-29 16:25:44,458 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21296 from 127.0.0.1:54494
+2010-08-29 16:25:44,458 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:25:44,459 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21296 from 127.0.0.1:54494
+2010-08-29 16:25:44,459 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21296 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:47,458 DEBUG org.apache.hadoop.ipc.Server:  got #21297
+2010-08-29 16:25:47,459 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21297 from 127.0.0.1:54494
+2010-08-29 16:25:47,459 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:47,459 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21297 from 127.0.0.1:54494
+2010-08-29 16:25:47,460 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21297 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:50,879 DEBUG org.apache.hadoop.ipc.Server:  got #21298
+2010-08-29 16:25:50,892 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21298 from 127.0.0.1:54494
+2010-08-29 16:25:50,892 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:25:50,892 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21298 from 127.0.0.1:54494
+2010-08-29 16:25:50,893 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21298 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:53,460 DEBUG org.apache.hadoop.ipc.Server:  got #21299
+2010-08-29 16:25:53,461 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21299 from 127.0.0.1:54494
+2010-08-29 16:25:53,462 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:25:53,462 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21299 from 127.0.0.1:54494
+2010-08-29 16:25:53,462 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21299 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:56,461 DEBUG org.apache.hadoop.ipc.Server:  got #21300
+2010-08-29 16:25:56,467 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21300 from 127.0.0.1:54494
+2010-08-29 16:25:56,467 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 5 procesingTime= 0
+2010-08-29 16:25:56,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21300 from 127.0.0.1:54494
+2010-08-29 16:25:56,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21300 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:25:59,463 DEBUG org.apache.hadoop.ipc.Server:  got #21301
+2010-08-29 16:25:59,467 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21301 from 127.0.0.1:54494
+2010-08-29 16:25:59,467 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:25:59,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21301 from 127.0.0.1:54494
+2010-08-29 16:25:59,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21301 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:02,463 DEBUG org.apache.hadoop.ipc.Server:  got #21302
+2010-08-29 16:26:02,464 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21302 from 127.0.0.1:54494
+2010-08-29 16:26:02,464 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:02,464 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21302 from 127.0.0.1:54494
+2010-08-29 16:26:02,465 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21302 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:05,464 DEBUG org.apache.hadoop.ipc.Server:  got #21303
+2010-08-29 16:26:05,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21303 from 127.0.0.1:54494
+2010-08-29 16:26:05,468 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:26:05,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21303 from 127.0.0.1:54494
+2010-08-29 16:26:05,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21303 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:08,465 DEBUG org.apache.hadoop.ipc.Server:  got #21304
+2010-08-29 16:26:08,466 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21304 from 127.0.0.1:54494
+2010-08-29 16:26:08,466 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:26:08,466 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21304 from 127.0.0.1:54494
+2010-08-29 16:26:08,466 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21304 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:11,466 DEBUG org.apache.hadoop.ipc.Server:  got #21305
+2010-08-29 16:26:11,467 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21305 from 127.0.0.1:54494
+2010-08-29 16:26:11,467 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:11,467 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21305 from 127.0.0.1:54494
+2010-08-29 16:26:11,467 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21305 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:14,467 DEBUG org.apache.hadoop.ipc.Server:  got #21306
+2010-08-29 16:26:14,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21306 from 127.0.0.1:54494
+2010-08-29 16:26:14,468 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:14,468 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21306 from 127.0.0.1:54494
+2010-08-29 16:26:14,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21306 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:17,468 DEBUG org.apache.hadoop.ipc.Server:  got #21307
+2010-08-29 16:26:17,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21307 from 127.0.0.1:54494
+2010-08-29 16:26:17,469 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:17,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21307 from 127.0.0.1:54494
+2010-08-29 16:26:17,469 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21307 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:20,469 DEBUG org.apache.hadoop.ipc.Server:  got #21308
+2010-08-29 16:26:20,470 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21308 from 127.0.0.1:54494
+2010-08-29 16:26:20,470 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:20,470 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21308 from 127.0.0.1:54494
+2010-08-29 16:26:20,470 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21308 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:23,470 DEBUG org.apache.hadoop.ipc.Server:  got #21309
+2010-08-29 16:26:23,471 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21309 from 127.0.0.1:54494
+2010-08-29 16:26:23,471 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:23,471 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21309 from 127.0.0.1:54494
+2010-08-29 16:26:23,472 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21309 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:26,471 DEBUG org.apache.hadoop.ipc.Server:  got #21310
+2010-08-29 16:26:26,472 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21310 from 127.0.0.1:54494
+2010-08-29 16:26:26,472 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:26,472 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21310 from 127.0.0.1:54494
+2010-08-29 16:26:26,473 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21310 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:29,472 DEBUG org.apache.hadoop.ipc.Server:  got #21311
+2010-08-29 16:26:29,473 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21311 from 127.0.0.1:54494
+2010-08-29 16:26:29,473 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:29,473 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21311 from 127.0.0.1:54494
+2010-08-29 16:26:29,474 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21311 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:32,525 DEBUG org.apache.hadoop.ipc.Server:  got #21312
+2010-08-29 16:26:32,526 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21312 from 127.0.0.1:54494
+2010-08-29 16:26:32,526 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:32,526 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21312 from 127.0.0.1:54494
+2010-08-29 16:26:32,526 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21312 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:35,474 DEBUG org.apache.hadoop.ipc.Server:  got #21313
+2010-08-29 16:26:35,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21313 from 127.0.0.1:54494
+2010-08-29 16:26:35,475 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:35,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21313 from 127.0.0.1:54494
+2010-08-29 16:26:35,475 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21313 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:38,475 DEBUG org.apache.hadoop.ipc.Server:  got #21314
+2010-08-29 16:26:38,479 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21314 from 127.0.0.1:54494
+2010-08-29 16:26:38,480 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:26:38,480 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21314 from 127.0.0.1:54494
+2010-08-29 16:26:38,480 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21314 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:41,476 DEBUG org.apache.hadoop.ipc.Server:  got #21315
+2010-08-29 16:26:41,477 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21315 from 127.0.0.1:54494
+2010-08-29 16:26:41,477 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:41,477 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21315 from 127.0.0.1:54494
+2010-08-29 16:26:41,478 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21315 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:44,477 DEBUG org.apache.hadoop.ipc.Server:  got #21316
+2010-08-29 16:26:44,478 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21316 from 127.0.0.1:54494
+2010-08-29 16:26:44,478 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:26:44,478 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21316 from 127.0.0.1:54494
+2010-08-29 16:26:44,478 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21316 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:47,478 DEBUG org.apache.hadoop.ipc.Server:  got #21317
+2010-08-29 16:26:47,479 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21317 from 127.0.0.1:54494
+2010-08-29 16:26:47,479 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:47,479 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21317 from 127.0.0.1:54494
+2010-08-29 16:26:47,479 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21317 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:50,479 DEBUG org.apache.hadoop.ipc.Server:  got #21318
+2010-08-29 16:26:50,485 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21318 from 127.0.0.1:54494
+2010-08-29 16:26:50,485 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:50,485 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21318 from 127.0.0.1:54494
+2010-08-29 16:26:50,486 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21318 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:53,480 DEBUG org.apache.hadoop.ipc.Server:  got #21319
+2010-08-29 16:26:53,481 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21319 from 127.0.0.1:54494
+2010-08-29 16:26:53,481 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:53,481 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21319 from 127.0.0.1:54494
+2010-08-29 16:26:53,481 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21319 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:54,223 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:26:54,224 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:26:56,482 DEBUG org.apache.hadoop.ipc.Server:  got #21320
+2010-08-29 16:26:56,484 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21320 from 127.0.0.1:54494
+2010-08-29 16:26:56,484 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:26:56,484 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21320 from 127.0.0.1:54494
+2010-08-29 16:26:56,484 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21320 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:26:59,482 DEBUG org.apache.hadoop.ipc.Server:  got #21321
+2010-08-29 16:26:59,483 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21321 from 127.0.0.1:54494
+2010-08-29 16:26:59,483 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:26:59,483 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21321 from 127.0.0.1:54494
+2010-08-29 16:26:59,484 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21321 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:02,483 DEBUG org.apache.hadoop.ipc.Server:  got #21322
+2010-08-29 16:27:02,924 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21322 from 127.0.0.1:54494
+2010-08-29 16:27:02,924 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:02,924 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21322 from 127.0.0.1:54494
+2010-08-29 16:27:02,925 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21322 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:05,484 DEBUG org.apache.hadoop.ipc.Server:  got #21323
+2010-08-29 16:27:05,488 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21323 from 127.0.0.1:54494
+2010-08-29 16:27:05,488 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:27:05,488 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21323 from 127.0.0.1:54494
+2010-08-29 16:27:05,488 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21323 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:08,485 DEBUG org.apache.hadoop.ipc.Server:  got #21324
+2010-08-29 16:27:08,486 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21324 from 127.0.0.1:54494
+2010-08-29 16:27:08,487 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:08,487 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21324 from 127.0.0.1:54494
+2010-08-29 16:27:08,487 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21324 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:15,242 DEBUG org.apache.hadoop.ipc.Server:  got #21325
+2010-08-29 16:27:15,250 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21325 from 127.0.0.1:54494
+2010-08-29 16:27:15,603 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 354 procesingTime= 0
+2010-08-29 16:27:15,603 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21325 from 127.0.0.1:54494
+2010-08-29 16:27:15,603 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21325 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:15,611 DEBUG org.apache.hadoop.ipc.Server:  got #21326
+2010-08-29 16:27:15,612 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21326 from 127.0.0.1:54494
+2010-08-29 16:27:15,612 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:27:15,612 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21326 from 127.0.0.1:54494
+2010-08-29 16:27:15,612 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21326 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:18,612 DEBUG org.apache.hadoop.ipc.Server:  got #21327
+2010-08-29 16:27:18,613 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21327 from 127.0.0.1:54494
+2010-08-29 16:27:18,613 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:18,614 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21327 from 127.0.0.1:54494
+2010-08-29 16:27:18,614 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21327 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:21,616 DEBUG org.apache.hadoop.ipc.Server:  got #21328
+2010-08-29 16:27:21,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21328 from 127.0.0.1:54494
+2010-08-29 16:27:21,621 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 4 procesingTime= 0
+2010-08-29 16:27:21,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21328 from 127.0.0.1:54494
+2010-08-29 16:27:21,622 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21328 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:24,614 DEBUG org.apache.hadoop.ipc.Server:  got #21329
+2010-08-29 16:27:24,615 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21329 from 127.0.0.1:54494
+2010-08-29 16:27:24,615 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:24,615 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21329 from 127.0.0.1:54494
+2010-08-29 16:27:24,616 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21329 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:27,623 DEBUG org.apache.hadoop.ipc.Server:  got #21330
+2010-08-29 16:27:27,625 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21330 from 127.0.0.1:54494
+2010-08-29 16:27:27,626 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:27:27,626 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21330 from 127.0.0.1:54494
+2010-08-29 16:27:27,626 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21330 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:30,616 DEBUG org.apache.hadoop.ipc.Server:  got #21331
+2010-08-29 16:27:30,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21331 from 127.0.0.1:54494
+2010-08-29 16:27:30,621 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 4 procesingTime= 0
+2010-08-29 16:27:30,622 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21331 from 127.0.0.1:54494
+2010-08-29 16:27:30,622 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21331 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:33,632 DEBUG org.apache.hadoop.ipc.Server:  got #21332
+2010-08-29 16:27:33,633 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21332 from 127.0.0.1:54494
+2010-08-29 16:27:33,633 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:27:33,633 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21332 from 127.0.0.1:54494
+2010-08-29 16:27:33,633 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21332 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:36,618 DEBUG org.apache.hadoop.ipc.Server:  got #21333
+2010-08-29 16:27:36,619 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21333 from 127.0.0.1:54494
+2010-08-29 16:27:36,619 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:36,619 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21333 from 127.0.0.1:54494
+2010-08-29 16:27:36,620 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21333 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:39,619 DEBUG org.apache.hadoop.ipc.Server:  got #21334
+2010-08-29 16:27:39,620 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21334 from 127.0.0.1:54494
+2010-08-29 16:27:39,620 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:39,620 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21334 from 127.0.0.1:54494
+2010-08-29 16:27:39,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21334 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:42,620 DEBUG org.apache.hadoop.ipc.Server:  got #21335
+2010-08-29 16:27:42,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21335 from 127.0.0.1:54494
+2010-08-29 16:27:42,621 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:42,621 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21335 from 127.0.0.1:54494
+2010-08-29 16:27:42,622 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21335 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:45,621 DEBUG org.apache.hadoop.ipc.Server:  got #21336
+2010-08-29 16:27:45,623 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21336 from 127.0.0.1:54494
+2010-08-29 16:27:45,623 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:45,623 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21336 from 127.0.0.1:54494
+2010-08-29 16:27:45,624 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21336 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:48,622 DEBUG org.apache.hadoop.ipc.Server:  got #21337
+2010-08-29 16:27:48,623 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21337 from 127.0.0.1:54494
+2010-08-29 16:27:48,623 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:48,623 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21337 from 127.0.0.1:54494
+2010-08-29 16:27:48,624 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21337 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:51,623 DEBUG org.apache.hadoop.ipc.Server:  got #21338
+2010-08-29 16:27:51,624 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21338 from 127.0.0.1:54494
+2010-08-29 16:27:51,624 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:27:51,624 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21338 from 127.0.0.1:54494
+2010-08-29 16:27:51,624 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21338 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:54,624 DEBUG org.apache.hadoop.ipc.Server:  got #21339
+2010-08-29 16:27:54,625 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21339 from 127.0.0.1:54494
+2010-08-29 16:27:54,625 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:54,625 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21339 from 127.0.0.1:54494
+2010-08-29 16:27:54,625 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21339 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:27:57,625 DEBUG org.apache.hadoop.ipc.Server:  got #21340
+2010-08-29 16:27:57,626 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21340 from 127.0.0.1:54494
+2010-08-29 16:27:57,626 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:27:57,626 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21340 from 127.0.0.1:54494
+2010-08-29 16:27:57,627 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21340 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:00,626 DEBUG org.apache.hadoop.ipc.Server:  got #21341
+2010-08-29 16:28:00,627 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21341 from 127.0.0.1:54494
+2010-08-29 16:28:00,627 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:00,627 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21341 from 127.0.0.1:54494
+2010-08-29 16:28:00,627 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21341 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:03,627 DEBUG org.apache.hadoop.ipc.Server:  got #21342
+2010-08-29 16:28:03,627 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21342 from 127.0.0.1:54494
+2010-08-29 16:28:03,627 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:03,628 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21342 from 127.0.0.1:54494
+2010-08-29 16:28:03,628 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21342 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:06,628 DEBUG org.apache.hadoop.ipc.Server:  got #21343
+2010-08-29 16:28:06,629 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21343 from 127.0.0.1:54494
+2010-08-29 16:28:06,629 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:06,629 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21343 from 127.0.0.1:54494
+2010-08-29 16:28:06,630 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21343 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:09,630 DEBUG org.apache.hadoop.ipc.Server:  got #21344
+2010-08-29 16:28:09,634 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21344 from 127.0.0.1:54494
+2010-08-29 16:28:09,634 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:28:09,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21344 from 127.0.0.1:54494
+2010-08-29 16:28:09,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21344 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:12,575 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-08-29 16:28:12,629 DEBUG org.apache.hadoop.ipc.Server:  got #21345
+2010-08-29 16:28:12,630 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21345 from 127.0.0.1:54494
+2010-08-29 16:28:12,630 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:12,630 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21345 from 127.0.0.1:54494
+2010-08-29 16:28:12,631 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21345 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:15,732 DEBUG org.apache.hadoop.ipc.Server:  got #21346
+2010-08-29 16:28:15,773 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21346 from 127.0.0.1:54494
+2010-08-29 16:28:15,781 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 9 procesingTime= 0
+2010-08-29 16:28:15,781 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21346 from 127.0.0.1:54494
+2010-08-29 16:28:15,782 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21346 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:18,632 DEBUG org.apache.hadoop.ipc.Server:  got #21347
+2010-08-29 16:28:18,633 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21347 from 127.0.0.1:54494
+2010-08-29 16:28:18,633 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:18,637 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21347 from 127.0.0.1:54494
+2010-08-29 16:28:18,637 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21347 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:21,633 DEBUG org.apache.hadoop.ipc.Server:  got #21348
+2010-08-29 16:28:21,634 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21348 from 127.0.0.1:54494
+2010-08-29 16:28:21,635 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:21,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21348 from 127.0.0.1:54494
+2010-08-29 16:28:21,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21348 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:24,635 DEBUG org.apache.hadoop.ipc.Server:  got #21349
+2010-08-29 16:28:24,636 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21349 from 127.0.0.1:54494
+2010-08-29 16:28:24,636 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:24,636 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21349 from 127.0.0.1:54494
+2010-08-29 16:28:24,637 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21349 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:27,634 DEBUG org.apache.hadoop.ipc.Server:  got #21350
+2010-08-29 16:28:27,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21350 from 127.0.0.1:54494
+2010-08-29 16:28:27,635 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:27,635 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21350 from 127.0.0.1:54494
+2010-08-29 16:28:27,636 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21350 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:30,636 DEBUG org.apache.hadoop.ipc.Server:  got #21351
+2010-08-29 16:28:30,637 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21351 from 127.0.0.1:54494
+2010-08-29 16:28:30,637 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:30,637 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21351 from 127.0.0.1:54494
+2010-08-29 16:28:30,638 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21351 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:33,659 DEBUG org.apache.hadoop.ipc.Server:  got #21352
+2010-08-29 16:28:33,660 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21352 from 127.0.0.1:54494
+2010-08-29 16:28:33,660 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:33,660 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21352 from 127.0.0.1:54494
+2010-08-29 16:28:33,660 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21352 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:36,638 DEBUG org.apache.hadoop.ipc.Server:  got #21353
+2010-08-29 16:28:36,640 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21353 from 127.0.0.1:54494
+2010-08-29 16:28:36,640 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:36,640 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21353 from 127.0.0.1:54494
+2010-08-29 16:28:36,640 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21353 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:39,639 DEBUG org.apache.hadoop.ipc.Server:  got #21354
+2010-08-29 16:28:39,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21354 from 127.0.0.1:54494
+2010-08-29 16:28:39,642 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:39,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21354 from 127.0.0.1:54494
+2010-08-29 16:28:39,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21354 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:42,641 DEBUG org.apache.hadoop.ipc.Server:  got #21355
+2010-08-29 16:28:42,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21355 from 127.0.0.1:54494
+2010-08-29 16:28:42,642 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:42,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21355 from 127.0.0.1:54494
+2010-08-29 16:28:42,642 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21355 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:45,641 DEBUG org.apache.hadoop.ipc.Server:  got #21356
+2010-08-29 16:28:45,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21356 from 127.0.0.1:54494
+2010-08-29 16:28:45,744 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:45,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21356 from 127.0.0.1:54494
+2010-08-29 16:28:45,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21356 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:48,642 DEBUG org.apache.hadoop.ipc.Server:  got #21357
+2010-08-29 16:28:48,643 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21357 from 127.0.0.1:54494
+2010-08-29 16:28:48,643 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:48,643 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21357 from 127.0.0.1:54494
+2010-08-29 16:28:48,643 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21357 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:51,645 DEBUG org.apache.hadoop.ipc.Server:  got #21358
+2010-08-29 16:28:51,646 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21358 from 127.0.0.1:54494
+2010-08-29 16:28:51,646 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:51,646 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21358 from 127.0.0.1:54494
+2010-08-29 16:28:51,647 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21358 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:54,251 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:28:54,252 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:28:54,644 DEBUG org.apache.hadoop.ipc.Server:  got #21359
+2010-08-29 16:28:54,645 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21359 from 127.0.0.1:54494
+2010-08-29 16:28:54,645 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:54,645 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21359 from 127.0.0.1:54494
+2010-08-29 16:28:54,645 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21359 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:28:57,645 DEBUG org.apache.hadoop.ipc.Server:  got #21360
+2010-08-29 16:28:57,646 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21360 from 127.0.0.1:54494
+2010-08-29 16:28:57,646 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:28:57,646 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21360 from 127.0.0.1:54494
+2010-08-29 16:28:57,647 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21360 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:00,646 DEBUG org.apache.hadoop.ipc.Server:  got #21361
+2010-08-29 16:29:00,647 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21361 from 127.0.0.1:54494
+2010-08-29 16:29:00,647 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:00,647 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21361 from 127.0.0.1:54494
+2010-08-29 16:29:00,648 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21361 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:03,646 DEBUG org.apache.hadoop.ipc.Server:  got #21362
+2010-08-29 16:29:03,647 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21362 from 127.0.0.1:54494
+2010-08-29 16:29:03,647 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:03,648 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21362 from 127.0.0.1:54494
+2010-08-29 16:29:03,648 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21362 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:06,648 DEBUG org.apache.hadoop.ipc.Server:  got #21363
+2010-08-29 16:29:06,649 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21363 from 127.0.0.1:54494
+2010-08-29 16:29:06,649 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:06,649 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21363 from 127.0.0.1:54494
+2010-08-29 16:29:06,649 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21363 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:09,648 DEBUG org.apache.hadoop.ipc.Server:  got #21364
+2010-08-29 16:29:09,649 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21364 from 127.0.0.1:54494
+2010-08-29 16:29:09,649 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:09,650 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21364 from 127.0.0.1:54494
+2010-08-29 16:29:09,650 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21364 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:12,650 DEBUG org.apache.hadoop.ipc.Server:  got #21365
+2010-08-29 16:29:12,653 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21365 from 127.0.0.1:54494
+2010-08-29 16:29:12,653 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:12,653 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21365 from 127.0.0.1:54494
+2010-08-29 16:29:12,653 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21365 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:15,652 DEBUG org.apache.hadoop.ipc.Server:  got #21366
+2010-08-29 16:29:15,656 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21366 from 127.0.0.1:54494
+2010-08-29 16:29:15,656 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:29:15,656 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21366 from 127.0.0.1:54494
+2010-08-29 16:29:15,656 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21366 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:18,654 DEBUG org.apache.hadoop.ipc.Server:  got #21367
+2010-08-29 16:29:18,655 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21367 from 127.0.0.1:54494
+2010-08-29 16:29:18,655 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:18,655 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21367 from 127.0.0.1:54494
+2010-08-29 16:29:18,656 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21367 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:21,653 DEBUG org.apache.hadoop.ipc.Server:  got #21368
+2010-08-29 16:29:21,654 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21368 from 127.0.0.1:54494
+2010-08-29 16:29:21,654 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:21,654 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21368 from 127.0.0.1:54494
+2010-08-29 16:29:21,655 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21368 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:24,655 DEBUG org.apache.hadoop.ipc.Server:  got #21369
+2010-08-29 16:29:24,656 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21369 from 127.0.0.1:54494
+2010-08-29 16:29:24,656 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:24,657 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21369 from 127.0.0.1:54494
+2010-08-29 16:29:24,657 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21369 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:27,656 DEBUG org.apache.hadoop.ipc.Server:  got #21370
+2010-08-29 16:29:27,657 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21370 from 127.0.0.1:54494
+2010-08-29 16:29:27,657 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:27,657 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21370 from 127.0.0.1:54494
+2010-08-29 16:29:27,658 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21370 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:30,657 DEBUG org.apache.hadoop.ipc.Server:  got #21371
+2010-08-29 16:29:30,658 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21371 from 127.0.0.1:54494
+2010-08-29 16:29:30,658 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:30,658 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21371 from 127.0.0.1:54494
+2010-08-29 16:29:30,659 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21371 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:33,658 DEBUG org.apache.hadoop.ipc.Server:  got #21372
+2010-08-29 16:29:33,659 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21372 from 127.0.0.1:54494
+2010-08-29 16:29:33,659 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:33,660 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21372 from 127.0.0.1:54494
+2010-08-29 16:29:33,660 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21372 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:36,688 DEBUG org.apache.hadoop.ipc.Server:  got #21373
+2010-08-29 16:29:36,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21373 from 127.0.0.1:54494
+2010-08-29 16:29:36,689 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:29:36,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21373 from 127.0.0.1:54494
+2010-08-29 16:29:36,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21373 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:39,660 DEBUG org.apache.hadoop.ipc.Server:  got #21374
+2010-08-29 16:29:39,661 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21374 from 127.0.0.1:54494
+2010-08-29 16:29:39,662 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:29:39,662 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21374 from 127.0.0.1:54494
+2010-08-29 16:29:39,662 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21374 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:42,661 DEBUG org.apache.hadoop.ipc.Server:  got #21375
+2010-08-29 16:29:42,662 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21375 from 127.0.0.1:54494
+2010-08-29 16:29:42,662 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:42,663 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21375 from 127.0.0.1:54494
+2010-08-29 16:29:42,663 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21375 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:45,707 DEBUG org.apache.hadoop.ipc.Server:  got #21376
+2010-08-29 16:29:45,708 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21376 from 127.0.0.1:54494
+2010-08-29 16:29:45,708 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:45,708 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21376 from 127.0.0.1:54494
+2010-08-29 16:29:45,708 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21376 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:48,662 DEBUG org.apache.hadoop.ipc.Server:  got #21377
+2010-08-29 16:29:48,663 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21377 from 127.0.0.1:54494
+2010-08-29 16:29:48,663 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:48,663 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21377 from 127.0.0.1:54494
+2010-08-29 16:29:48,664 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21377 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:51,664 DEBUG org.apache.hadoop.ipc.Server:  got #21378
+2010-08-29 16:29:51,671 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21378 from 127.0.0.1:54494
+2010-08-29 16:29:51,672 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:29:51,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21378 from 127.0.0.1:54494
+2010-08-29 16:29:51,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21378 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:54,665 DEBUG org.apache.hadoop.ipc.Server:  got #21379
+2010-08-29 16:29:54,666 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21379 from 127.0.0.1:54494
+2010-08-29 16:29:54,666 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:54,667 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21379 from 127.0.0.1:54494
+2010-08-29 16:29:54,667 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21379 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:29:57,667 DEBUG org.apache.hadoop.ipc.Server:  got #21380
+2010-08-29 16:29:57,668 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21380 from 127.0.0.1:54494
+2010-08-29 16:29:57,668 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:29:57,669 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21380 from 127.0.0.1:54494
+2010-08-29 16:29:57,669 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21380 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:00,667 DEBUG org.apache.hadoop.ipc.Server:  got #21381
+2010-08-29 16:30:00,669 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21381 from 127.0.0.1:54494
+2010-08-29 16:30:00,669 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:00,669 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21381 from 127.0.0.1:54494
+2010-08-29 16:30:00,669 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21381 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:03,668 DEBUG org.apache.hadoop.ipc.Server:  got #21382
+2010-08-29 16:30:03,671 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21382 from 127.0.0.1:54494
+2010-08-29 16:30:03,671 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:03,671 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21382 from 127.0.0.1:54494
+2010-08-29 16:30:03,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21382 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:06,669 DEBUG org.apache.hadoop.ipc.Server:  got #21383
+2010-08-29 16:30:06,671 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21383 from 127.0.0.1:54494
+2010-08-29 16:30:06,671 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:06,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21383 from 127.0.0.1:54494
+2010-08-29 16:30:06,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21383 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:09,670 DEBUG org.apache.hadoop.ipc.Server:  got #21384
+2010-08-29 16:30:09,671 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21384 from 127.0.0.1:54494
+2010-08-29 16:30:09,672 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:09,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21384 from 127.0.0.1:54494
+2010-08-29 16:30:09,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21384 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:12,671 DEBUG org.apache.hadoop.ipc.Server:  got #21385
+2010-08-29 16:30:12,672 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21385 from 127.0.0.1:54494
+2010-08-29 16:30:12,673 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:30:12,673 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21385 from 127.0.0.1:54494
+2010-08-29 16:30:12,673 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21385 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:15,672 DEBUG org.apache.hadoop.ipc.Server:  got #21386
+2010-08-29 16:30:15,673 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21386 from 127.0.0.1:54494
+2010-08-29 16:30:15,673 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:15,673 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21386 from 127.0.0.1:54494
+2010-08-29 16:30:15,674 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21386 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:18,681 DEBUG org.apache.hadoop.ipc.Server:  got #21387
+2010-08-29 16:30:18,682 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21387 from 127.0.0.1:54494
+2010-08-29 16:30:18,682 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:18,682 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21387 from 127.0.0.1:54494
+2010-08-29 16:30:18,682 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21387 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:21,679 DEBUG org.apache.hadoop.ipc.Server:  got #21388
+2010-08-29 16:30:21,680 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21388 from 127.0.0.1:54494
+2010-08-29 16:30:21,680 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:21,681 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21388 from 127.0.0.1:54494
+2010-08-29 16:30:21,681 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21388 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:24,681 DEBUG org.apache.hadoop.ipc.Server:  got #21389
+2010-08-29 16:30:24,685 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21389 from 127.0.0.1:54494
+2010-08-29 16:30:24,685 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:30:24,685 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21389 from 127.0.0.1:54494
+2010-08-29 16:30:24,685 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21389 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:27,682 DEBUG org.apache.hadoop.ipc.Server:  got #21390
+2010-08-29 16:30:27,683 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21390 from 127.0.0.1:54494
+2010-08-29 16:30:27,683 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:27,683 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21390 from 127.0.0.1:54494
+2010-08-29 16:30:27,684 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21390 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:30,683 DEBUG org.apache.hadoop.ipc.Server:  got #21391
+2010-08-29 16:30:30,684 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21391 from 127.0.0.1:54494
+2010-08-29 16:30:30,685 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:30:30,685 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21391 from 127.0.0.1:54494
+2010-08-29 16:30:30,685 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21391 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:33,684 DEBUG org.apache.hadoop.ipc.Server:  got #21392
+2010-08-29 16:30:33,686 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21392 from 127.0.0.1:54494
+2010-08-29 16:30:33,686 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:33,686 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21392 from 127.0.0.1:54494
+2010-08-29 16:30:33,686 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21392 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:36,719 DEBUG org.apache.hadoop.ipc.Server:  got #21393
+2010-08-29 16:30:36,720 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21393 from 127.0.0.1:54494
+2010-08-29 16:30:36,720 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:36,720 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21393 from 127.0.0.1:54494
+2010-08-29 16:30:36,720 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21393 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:39,686 DEBUG org.apache.hadoop.ipc.Server:  got #21394
+2010-08-29 16:30:39,687 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21394 from 127.0.0.1:54494
+2010-08-29 16:30:39,687 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:39,687 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21394 from 127.0.0.1:54494
+2010-08-29 16:30:39,688 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21394 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:42,687 DEBUG org.apache.hadoop.ipc.Server:  got #21395
+2010-08-29 16:30:42,688 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21395 from 127.0.0.1:54494
+2010-08-29 16:30:42,688 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:42,688 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21395 from 127.0.0.1:54494
+2010-08-29 16:30:42,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21395 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:45,688 DEBUG org.apache.hadoop.ipc.Server:  got #21396
+2010-08-29 16:30:45,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21396 from 127.0.0.1:54494
+2010-08-29 16:30:45,689 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:45,689 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21396 from 127.0.0.1:54494
+2010-08-29 16:30:45,690 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21396 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:48,689 DEBUG org.apache.hadoop.ipc.Server:  got #21397
+2010-08-29 16:30:48,690 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21397 from 127.0.0.1:54494
+2010-08-29 16:30:48,690 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:48,690 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21397 from 127.0.0.1:54494
+2010-08-29 16:30:48,691 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21397 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:51,690 DEBUG org.apache.hadoop.ipc.Server:  got #21398
+2010-08-29 16:30:51,694 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21398 from 127.0.0.1:54494
+2010-08-29 16:30:51,694 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:51,694 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21398 from 127.0.0.1:54494
+2010-08-29 16:30:51,695 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21398 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:54,250 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:30:54,250 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:30:54,691 DEBUG org.apache.hadoop.ipc.Server:  got #21399
+2010-08-29 16:30:54,692 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21399 from 127.0.0.1:54494
+2010-08-29 16:30:54,692 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:30:54,692 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21399 from 127.0.0.1:54494
+2010-08-29 16:30:54,692 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21399 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:30:57,692 DEBUG org.apache.hadoop.ipc.Server:  got #21400
+2010-08-29 16:30:57,693 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21400 from 127.0.0.1:54494
+2010-08-29 16:30:57,693 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:30:57,693 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21400 from 127.0.0.1:54494
+2010-08-29 16:30:57,694 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21400 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:00,693 DEBUG org.apache.hadoop.ipc.Server:  got #21401
+2010-08-29 16:31:00,694 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21401 from 127.0.0.1:54494
+2010-08-29 16:31:00,694 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:00,694 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21401 from 127.0.0.1:54494
+2010-08-29 16:31:00,695 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21401 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:03,694 DEBUG org.apache.hadoop.ipc.Server:  got #21402
+2010-08-29 16:31:03,695 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21402 from 127.0.0.1:54494
+2010-08-29 16:31:03,695 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:03,695 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21402 from 127.0.0.1:54494
+2010-08-29 16:31:03,696 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21402 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:06,695 DEBUG org.apache.hadoop.ipc.Server:  got #21403
+2010-08-29 16:31:06,696 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21403 from 127.0.0.1:54494
+2010-08-29 16:31:06,696 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:06,696 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21403 from 127.0.0.1:54494
+2010-08-29 16:31:06,697 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21403 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:09,696 DEBUG org.apache.hadoop.ipc.Server:  got #21404
+2010-08-29 16:31:09,697 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21404 from 127.0.0.1:54494
+2010-08-29 16:31:09,697 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:09,697 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21404 from 127.0.0.1:54494
+2010-08-29 16:31:09,698 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21404 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:12,697 DEBUG org.apache.hadoop.ipc.Server:  got #21405
+2010-08-29 16:31:12,698 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21405 from 127.0.0.1:54494
+2010-08-29 16:31:12,698 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:12,698 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21405 from 127.0.0.1:54494
+2010-08-29 16:31:12,699 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21405 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:15,698 DEBUG org.apache.hadoop.ipc.Server:  got #21406
+2010-08-29 16:31:15,699 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21406 from 127.0.0.1:54494
+2010-08-29 16:31:15,699 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:15,699 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21406 from 127.0.0.1:54494
+2010-08-29 16:31:15,700 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21406 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:18,698 DEBUG org.apache.hadoop.ipc.Server:  got #21407
+2010-08-29 16:31:18,699 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21407 from 127.0.0.1:54494
+2010-08-29 16:31:18,699 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:18,699 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21407 from 127.0.0.1:54494
+2010-08-29 16:31:18,700 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21407 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:21,700 DEBUG org.apache.hadoop.ipc.Server:  got #21408
+2010-08-29 16:31:21,701 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21408 from 127.0.0.1:54494
+2010-08-29 16:31:21,701 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:21,701 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21408 from 127.0.0.1:54494
+2010-08-29 16:31:21,702 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21408 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:24,701 DEBUG org.apache.hadoop.ipc.Server:  got #21409
+2010-08-29 16:31:24,702 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21409 from 127.0.0.1:54494
+2010-08-29 16:31:24,703 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:31:24,703 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21409 from 127.0.0.1:54494
+2010-08-29 16:31:24,703 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21409 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:27,702 DEBUG org.apache.hadoop.ipc.Server:  got #21410
+2010-08-29 16:31:27,703 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21410 from 127.0.0.1:54494
+2010-08-29 16:31:27,704 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:31:27,704 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21410 from 127.0.0.1:54494
+2010-08-29 16:31:27,704 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21410 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:30,703 DEBUG org.apache.hadoop.ipc.Server:  got #21411
+2010-08-29 16:31:30,704 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21411 from 127.0.0.1:54494
+2010-08-29 16:31:30,705 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:31:30,705 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21411 from 127.0.0.1:54494
+2010-08-29 16:31:30,705 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21411 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:33,704 DEBUG org.apache.hadoop.ipc.Server:  got #21412
+2010-08-29 16:31:33,705 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21412 from 127.0.0.1:54494
+2010-08-29 16:31:33,705 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:33,705 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21412 from 127.0.0.1:54494
+2010-08-29 16:31:33,706 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21412 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:36,705 DEBUG org.apache.hadoop.ipc.Server:  got #21413
+2010-08-29 16:31:36,706 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21413 from 127.0.0.1:54494
+2010-08-29 16:31:36,707 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:31:36,707 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21413 from 127.0.0.1:54494
+2010-08-29 16:31:36,707 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21413 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:39,736 DEBUG org.apache.hadoop.ipc.Server:  got #21414
+2010-08-29 16:31:39,737 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21414 from 127.0.0.1:54494
+2010-08-29 16:31:39,737 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:31:39,737 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21414 from 127.0.0.1:54494
+2010-08-29 16:31:39,737 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21414 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:42,707 DEBUG org.apache.hadoop.ipc.Server:  got #21415
+2010-08-29 16:31:42,711 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21415 from 127.0.0.1:54494
+2010-08-29 16:31:42,711 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 3 procesingTime= 0
+2010-08-29 16:31:42,712 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21415 from 127.0.0.1:54494
+2010-08-29 16:31:42,712 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21415 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:45,708 DEBUG org.apache.hadoop.ipc.Server:  got #21416
+2010-08-29 16:31:45,709 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21416 from 127.0.0.1:54494
+2010-08-29 16:31:45,709 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:45,709 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21416 from 127.0.0.1:54494
+2010-08-29 16:31:45,710 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21416 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:48,709 DEBUG org.apache.hadoop.ipc.Server:  got #21417
+2010-08-29 16:31:48,710 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21417 from 127.0.0.1:54494
+2010-08-29 16:31:48,710 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:48,710 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21417 from 127.0.0.1:54494
+2010-08-29 16:31:48,710 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21417 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:51,710 DEBUG org.apache.hadoop.ipc.Server:  got #21418
+2010-08-29 16:31:51,711 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21418 from 127.0.0.1:54494
+2010-08-29 16:31:51,711 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:51,712 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21418 from 127.0.0.1:54494
+2010-08-29 16:31:51,712 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21418 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:54,711 DEBUG org.apache.hadoop.ipc.Server:  got #21419
+2010-08-29 16:31:54,712 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21419 from 127.0.0.1:54494
+2010-08-29 16:31:54,712 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:54,713 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21419 from 127.0.0.1:54494
+2010-08-29 16:31:54,713 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21419 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:31:57,712 DEBUG org.apache.hadoop.ipc.Server:  got #21420
+2010-08-29 16:31:57,713 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21420 from 127.0.0.1:54494
+2010-08-29 16:31:57,713 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:31:57,713 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21420 from 127.0.0.1:54494
+2010-08-29 16:31:57,714 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21420 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:00,713 DEBUG org.apache.hadoop.ipc.Server:  got #21421
+2010-08-29 16:32:00,714 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21421 from 127.0.0.1:54494
+2010-08-29 16:32:00,714 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:00,714 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21421 from 127.0.0.1:54494
+2010-08-29 16:32:00,715 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21421 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:03,714 DEBUG org.apache.hadoop.ipc.Server:  got #21422
+2010-08-29 16:32:03,715 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21422 from 127.0.0.1:54494
+2010-08-29 16:32:03,715 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:03,716 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21422 from 127.0.0.1:54494
+2010-08-29 16:32:03,716 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21422 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:06,714 DEBUG org.apache.hadoop.ipc.Server:  got #21423
+2010-08-29 16:32:06,715 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21423 from 127.0.0.1:54494
+2010-08-29 16:32:06,715 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:06,715 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21423 from 127.0.0.1:54494
+2010-08-29 16:32:06,716 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21423 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:09,716 DEBUG org.apache.hadoop.ipc.Server:  got #21424
+2010-08-29 16:32:09,717 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21424 from 127.0.0.1:54494
+2010-08-29 16:32:09,717 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:09,717 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21424 from 127.0.0.1:54494
+2010-08-29 16:32:09,718 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21424 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:12,822 DEBUG org.apache.hadoop.ipc.Server:  got #21425
+2010-08-29 16:32:12,825 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21425 from 127.0.0.1:54494
+2010-08-29 16:32:12,825 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:12,825 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21425 from 127.0.0.1:54494
+2010-08-29 16:32:12,825 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21425 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:15,718 DEBUG org.apache.hadoop.ipc.Server:  got #21426
+2010-08-29 16:32:15,720 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21426 from 127.0.0.1:54494
+2010-08-29 16:32:15,720 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:15,721 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21426 from 127.0.0.1:54494
+2010-08-29 16:32:15,721 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21426 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:18,718 DEBUG org.apache.hadoop.ipc.Server:  got #21427
+2010-08-29 16:32:18,719 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21427 from 127.0.0.1:54494
+2010-08-29 16:32:18,719 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:18,719 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21427 from 127.0.0.1:54494
+2010-08-29 16:32:18,719 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21427 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:21,720 DEBUG org.apache.hadoop.ipc.Server:  got #21428
+2010-08-29 16:32:21,721 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21428 from 127.0.0.1:54494
+2010-08-29 16:32:21,722 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:21,722 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21428 from 127.0.0.1:54494
+2010-08-29 16:32:21,722 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21428 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:24,723 DEBUG org.apache.hadoop.ipc.Server:  got #21429
+2010-08-29 16:32:24,725 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21429 from 127.0.0.1:54494
+2010-08-29 16:32:24,725 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:24,725 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21429 from 127.0.0.1:54494
+2010-08-29 16:32:24,725 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21429 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:27,725 DEBUG org.apache.hadoop.ipc.Server:  got #21430
+2010-08-29 16:32:27,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21430 from 127.0.0.1:54494
+2010-08-29 16:32:27,726 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:27,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21430 from 127.0.0.1:54494
+2010-08-29 16:32:27,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21430 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:30,725 DEBUG org.apache.hadoop.ipc.Server:  got #21431
+2010-08-29 16:32:30,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21431 from 127.0.0.1:54494
+2010-08-29 16:32:30,726 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:30,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21431 from 127.0.0.1:54494
+2010-08-29 16:32:30,726 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21431 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:33,726 DEBUG org.apache.hadoop.ipc.Server:  got #21432
+2010-08-29 16:32:33,727 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21432 from 127.0.0.1:54494
+2010-08-29 16:32:33,727 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:33,727 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21432 from 127.0.0.1:54494
+2010-08-29 16:32:33,728 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21432 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:36,727 DEBUG org.apache.hadoop.ipc.Server:  got #21433
+2010-08-29 16:32:36,729 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21433 from 127.0.0.1:54494
+2010-08-29 16:32:36,729 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:36,729 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21433 from 127.0.0.1:54494
+2010-08-29 16:32:36,729 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21433 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:39,728 DEBUG org.apache.hadoop.ipc.Server:  got #21434
+2010-08-29 16:32:39,729 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21434 from 127.0.0.1:54494
+2010-08-29 16:32:39,729 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:39,730 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21434 from 127.0.0.1:54494
+2010-08-29 16:32:39,730 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21434 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:42,779 DEBUG org.apache.hadoop.ipc.Server:  got #21435
+2010-08-29 16:32:42,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21435 from 127.0.0.1:54494
+2010-08-29 16:32:42,780 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:42,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21435 from 127.0.0.1:54494
+2010-08-29 16:32:42,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21435 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:45,730 DEBUG org.apache.hadoop.ipc.Server:  got #21436
+2010-08-29 16:32:45,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21436 from 127.0.0.1:54494
+2010-08-29 16:32:45,749 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:45,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21436 from 127.0.0.1:54494
+2010-08-29 16:32:45,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21436 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:48,730 DEBUG org.apache.hadoop.ipc.Server:  got #21437
+2010-08-29 16:32:48,733 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21437 from 127.0.0.1:54494
+2010-08-29 16:32:48,733 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:32:48,733 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21437 from 127.0.0.1:54494
+2010-08-29 16:32:48,733 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21437 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:51,732 DEBUG org.apache.hadoop.ipc.Server:  got #21438
+2010-08-29 16:32:51,927 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21438 from 127.0.0.1:54494
+2010-08-29 16:32:51,927 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:51,927 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21438 from 127.0.0.1:54494
+2010-08-29 16:32:51,927 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21438 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:54,262 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:32:54,262 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:32:54,732 DEBUG org.apache.hadoop.ipc.Server:  got #21439
+2010-08-29 16:32:54,733 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21439 from 127.0.0.1:54494
+2010-08-29 16:32:54,733 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:32:54,733 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21439 from 127.0.0.1:54494
+2010-08-29 16:32:54,734 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21439 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:32:57,734 DEBUG org.apache.hadoop.ipc.Server:  got #21440
+2010-08-29 16:32:57,734 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21440 from 127.0.0.1:54494
+2010-08-29 16:32:57,735 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:32:57,735 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21440 from 127.0.0.1:54494
+2010-08-29 16:32:57,735 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21440 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:00,735 DEBUG org.apache.hadoop.ipc.Server:  got #21441
+2010-08-29 16:33:00,735 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21441 from 127.0.0.1:54494
+2010-08-29 16:33:00,736 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:00,736 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21441 from 127.0.0.1:54494
+2010-08-29 16:33:00,736 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21441 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:03,735 DEBUG org.apache.hadoop.ipc.Server:  got #21442
+2010-08-29 16:33:03,736 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21442 from 127.0.0.1:54494
+2010-08-29 16:33:03,736 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:03,737 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21442 from 127.0.0.1:54494
+2010-08-29 16:33:03,737 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21442 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:06,737 DEBUG org.apache.hadoop.ipc.Server:  got #21443
+2010-08-29 16:33:06,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21443 from 127.0.0.1:54494
+2010-08-29 16:33:06,739 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 2 procesingTime= 0
+2010-08-29 16:33:06,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21443 from 127.0.0.1:54494
+2010-08-29 16:33:06,740 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21443 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:09,738 DEBUG org.apache.hadoop.ipc.Server:  got #21444
+2010-08-29 16:33:09,738 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21444 from 127.0.0.1:54494
+2010-08-29 16:33:09,739 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:33:09,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21444 from 127.0.0.1:54494
+2010-08-29 16:33:09,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21444 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:12,575 DEBUG org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor checking Q
+2010-08-29 16:33:12,738 DEBUG org.apache.hadoop.ipc.Server:  got #21445
+2010-08-29 16:33:12,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21445 from 127.0.0.1:54494
+2010-08-29 16:33:12,739 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:12,739 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21445 from 127.0.0.1:54494
+2010-08-29 16:33:12,740 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21445 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:15,739 DEBUG org.apache.hadoop.ipc.Server:  got #21446
+2010-08-29 16:33:15,740 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21446 from 127.0.0.1:54494
+2010-08-29 16:33:15,740 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:15,741 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21446 from 127.0.0.1:54494
+2010-08-29 16:33:15,741 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21446 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:18,741 DEBUG org.apache.hadoop.ipc.Server:  got #21447
+2010-08-29 16:33:18,741 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21447 from 127.0.0.1:54494
+2010-08-29 16:33:18,742 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:33:18,742 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21447 from 127.0.0.1:54494
+2010-08-29 16:33:18,742 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21447 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:21,742 DEBUG org.apache.hadoop.ipc.Server:  got #21448
+2010-08-29 16:33:21,743 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21448 from 127.0.0.1:54494
+2010-08-29 16:33:21,743 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:33:21,743 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21448 from 127.0.0.1:54494
+2010-08-29 16:33:21,743 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21448 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:24,743 DEBUG org.apache.hadoop.ipc.Server:  got #21449
+2010-08-29 16:33:24,743 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21449 from 127.0.0.1:54494
+2010-08-29 16:33:24,744 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:24,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21449 from 127.0.0.1:54494
+2010-08-29 16:33:24,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21449 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:27,743 DEBUG org.apache.hadoop.ipc.Server:  got #21450
+2010-08-29 16:33:27,744 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21450 from 127.0.0.1:54494
+2010-08-29 16:33:27,745 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:27,745 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21450 from 127.0.0.1:54494
+2010-08-29 16:33:27,745 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21450 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:30,745 DEBUG org.apache.hadoop.ipc.Server:  got #21451
+2010-08-29 16:33:30,745 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21451 from 127.0.0.1:54494
+2010-08-29 16:33:30,746 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:30,746 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21451 from 127.0.0.1:54494
+2010-08-29 16:33:30,746 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21451 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:33,745 DEBUG org.apache.hadoop.ipc.Server:  got #21452
+2010-08-29 16:33:33,746 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21452 from 127.0.0.1:54494
+2010-08-29 16:33:33,746 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:33,747 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21452 from 127.0.0.1:54494
+2010-08-29 16:33:33,747 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21452 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:36,746 DEBUG org.apache.hadoop.ipc.Server:  got #21453
+2010-08-29 16:33:36,747 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21453 from 127.0.0.1:54494
+2010-08-29 16:33:36,747 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:36,748 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21453 from 127.0.0.1:54494
+2010-08-29 16:33:36,748 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21453 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:39,748 DEBUG org.apache.hadoop.ipc.Server:  got #21454
+2010-08-29 16:33:39,748 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21454 from 127.0.0.1:54494
+2010-08-29 16:33:39,749 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:39,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21454 from 127.0.0.1:54494
+2010-08-29 16:33:39,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21454 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:42,748 DEBUG org.apache.hadoop.ipc.Server:  got #21455
+2010-08-29 16:33:42,749 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21455 from 127.0.0.1:54494
+2010-08-29 16:33:42,749 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:42,750 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21455 from 127.0.0.1:54494
+2010-08-29 16:33:42,750 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21455 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:45,773 DEBUG org.apache.hadoop.ipc.Server:  got #21456
+2010-08-29 16:33:45,773 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21456 from 127.0.0.1:54494
+2010-08-29 16:33:45,774 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:45,774 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21456 from 127.0.0.1:54494
+2010-08-29 16:33:45,774 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21456 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:48,751 DEBUG org.apache.hadoop.ipc.Server:  got #21457
+2010-08-29 16:33:48,754 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21457 from 127.0.0.1:54494
+2010-08-29 16:33:48,754 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:33:48,754 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21457 from 127.0.0.1:54494
+2010-08-29 16:33:48,754 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21457 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:51,752 DEBUG org.apache.hadoop.ipc.Server:  got #21458
+2010-08-29 16:33:51,753 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21458 from 127.0.0.1:54494
+2010-08-29 16:33:51,753 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:51,753 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21458 from 127.0.0.1:54494
+2010-08-29 16:33:51,753 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21458 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:54,753 DEBUG org.apache.hadoop.ipc.Server:  got #21459
+2010-08-29 16:33:54,753 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21459 from 127.0.0.1:54494
+2010-08-29 16:33:54,754 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:33:54,754 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21459 from 127.0.0.1:54494
+2010-08-29 16:33:54,754 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21459 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:33:57,755 DEBUG org.apache.hadoop.ipc.Server:  got #21460
+2010-08-29 16:33:57,756 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21460 from 127.0.0.1:54494
+2010-08-29 16:33:57,756 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:33:57,756 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21460 from 127.0.0.1:54494
+2010-08-29 16:33:57,756 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21460 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:00,755 DEBUG org.apache.hadoop.ipc.Server:  got #21461
+2010-08-29 16:34:00,756 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21461 from 127.0.0.1:54494
+2010-08-29 16:34:00,756 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:00,757 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21461 from 127.0.0.1:54494
+2010-08-29 16:34:00,757 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21461 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:03,756 DEBUG org.apache.hadoop.ipc.Server:  got #21462
+2010-08-29 16:34:03,757 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21462 from 127.0.0.1:54494
+2010-08-29 16:34:03,758 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:03,758 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21462 from 127.0.0.1:54494
+2010-08-29 16:34:03,758 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21462 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:06,757 DEBUG org.apache.hadoop.ipc.Server:  got #21463
+2010-08-29 16:34:06,758 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21463 from 127.0.0.1:54494
+2010-08-29 16:34:06,758 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:06,758 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21463 from 127.0.0.1:54494
+2010-08-29 16:34:06,759 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21463 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:09,758 DEBUG org.apache.hadoop.ipc.Server:  got #21464
+2010-08-29 16:34:09,759 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21464 from 127.0.0.1:54494
+2010-08-29 16:34:09,759 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:09,760 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21464 from 127.0.0.1:54494
+2010-08-29 16:34:09,760 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21464 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:12,760 DEBUG org.apache.hadoop.ipc.Server:  got #21465
+2010-08-29 16:34:12,760 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21465 from 127.0.0.1:54494
+2010-08-29 16:34:12,761 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:12,761 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21465 from 127.0.0.1:54494
+2010-08-29 16:34:12,761 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21465 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:15,761 DEBUG org.apache.hadoop.ipc.Server:  got #21466
+2010-08-29 16:34:15,762 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21466 from 127.0.0.1:54494
+2010-08-29 16:34:15,762 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:15,763 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21466 from 127.0.0.1:54494
+2010-08-29 16:34:15,763 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21466 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:18,761 DEBUG org.apache.hadoop.ipc.Server:  got #21467
+2010-08-29 16:34:18,762 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21467 from 127.0.0.1:54494
+2010-08-29 16:34:18,763 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:34:18,763 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21467 from 127.0.0.1:54494
+2010-08-29 16:34:18,763 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21467 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:21,763 DEBUG org.apache.hadoop.ipc.Server:  got #21468
+2010-08-29 16:34:21,764 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21468 from 127.0.0.1:54494
+2010-08-29 16:34:21,764 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:21,764 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21468 from 127.0.0.1:54494
+2010-08-29 16:34:21,764 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21468 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:24,763 DEBUG org.apache.hadoop.ipc.Server:  got #21469
+2010-08-29 16:34:24,764 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21469 from 127.0.0.1:54494
+2010-08-29 16:34:24,765 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:24,765 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21469 from 127.0.0.1:54494
+2010-08-29 16:34:24,765 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21469 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:27,764 DEBUG org.apache.hadoop.ipc.Server:  got #21470
+2010-08-29 16:34:27,765 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21470 from 127.0.0.1:54494
+2010-08-29 16:34:27,765 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:27,766 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21470 from 127.0.0.1:54494
+2010-08-29 16:34:27,766 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21470 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:30,765 DEBUG org.apache.hadoop.ipc.Server:  got #21471
+2010-08-29 16:34:30,766 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21471 from 127.0.0.1:54494
+2010-08-29 16:34:30,767 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:34:30,767 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21471 from 127.0.0.1:54494
+2010-08-29 16:34:30,767 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21471 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:33,766 DEBUG org.apache.hadoop.ipc.Server:  got #21472
+2010-08-29 16:34:33,767 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21472 from 127.0.0.1:54494
+2010-08-29 16:34:33,767 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:33,768 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21472 from 127.0.0.1:54494
+2010-08-29 16:34:33,768 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21472 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:36,767 DEBUG org.apache.hadoop.ipc.Server:  got #21473
+2010-08-29 16:34:36,768 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21473 from 127.0.0.1:54494
+2010-08-29 16:34:36,768 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:36,769 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21473 from 127.0.0.1:54494
+2010-08-29 16:34:36,769 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21473 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:39,769 DEBUG org.apache.hadoop.ipc.Server:  got #21474
+2010-08-29 16:34:39,770 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21474 from 127.0.0.1:54494
+2010-08-29 16:34:39,770 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:39,770 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21474 from 127.0.0.1:54494
+2010-08-29 16:34:39,770 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21474 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:42,770 DEBUG org.apache.hadoop.ipc.Server:  got #21475
+2010-08-29 16:34:42,872 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21475 from 127.0.0.1:54494
+2010-08-29 16:34:42,872 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:42,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21475 from 127.0.0.1:54494
+2010-08-29 16:34:42,873 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21475 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:45,771 DEBUG org.apache.hadoop.ipc.Server:  got #21476
+2010-08-29 16:34:45,771 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21476 from 127.0.0.1:54494
+2010-08-29 16:34:45,772 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:34:45,772 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21476 from 127.0.0.1:54494
+2010-08-29 16:34:45,772 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21476 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:48,815 DEBUG org.apache.hadoop.ipc.Server:  got #21477
+2010-08-29 16:34:48,816 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21477 from 127.0.0.1:54494
+2010-08-29 16:34:48,816 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:48,816 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21477 from 127.0.0.1:54494
+2010-08-29 16:34:48,816 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21477 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:51,772 DEBUG org.apache.hadoop.ipc.Server:  got #21478
+2010-08-29 16:34:51,773 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21478 from 127.0.0.1:54494
+2010-08-29 16:34:51,773 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:51,774 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21478 from 127.0.0.1:54494
+2010-08-29 16:34:51,774 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21478 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:54,278 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: Received a pipe advertisement: urn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:34:54,278 DEBUG com.agorasoft.ubeeko.p2pnamenode.RendezVousNameNode: This is a Ubeeko pipe advurn:jxta:uuid-59616261646162614E504720503250337F0D83CAA80A417C93E2A81747CB768704
+2010-08-29 16:34:54,774 DEBUG org.apache.hadoop.ipc.Server:  got #21479
+2010-08-29 16:34:54,775 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21479 from 127.0.0.1:54494
+2010-08-29 16:34:54,775 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:34:54,775 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21479 from 127.0.0.1:54494
+2010-08-29 16:34:54,775 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21479 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:34:57,774 DEBUG org.apache.hadoop.ipc.Server:  got #21480
+2010-08-29 16:34:57,775 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21480 from 127.0.0.1:54494
+2010-08-29 16:34:57,775 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:34:57,776 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21480 from 127.0.0.1:54494
+2010-08-29 16:34:57,776 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21480 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:00,775 DEBUG org.apache.hadoop.ipc.Server:  got #21481
+2010-08-29 16:35:00,776 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21481 from 127.0.0.1:54494
+2010-08-29 16:35:00,776 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:00,777 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21481 from 127.0.0.1:54494
+2010-08-29 16:35:00,777 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21481 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:03,777 DEBUG org.apache.hadoop.ipc.Server:  got #21482
+2010-08-29 16:35:03,777 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21482 from 127.0.0.1:54494
+2010-08-29 16:35:03,778 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:35:03,778 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21482 from 127.0.0.1:54494
+2010-08-29 16:35:03,778 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21482 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:06,778 DEBUG org.apache.hadoop.ipc.Server:  got #21483
+2010-08-29 16:35:06,778 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21483 from 127.0.0.1:54494
+2010-08-29 16:35:06,779 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:35:06,779 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21483 from 127.0.0.1:54494
+2010-08-29 16:35:06,779 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21483 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:09,778 DEBUG org.apache.hadoop.ipc.Server:  got #21484
+2010-08-29 16:35:09,779 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21484 from 127.0.0.1:54494
+2010-08-29 16:35:09,779 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:09,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21484 from 127.0.0.1:54494
+2010-08-29 16:35:09,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21484 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:12,779 DEBUG org.apache.hadoop.ipc.Server:  got #21485
+2010-08-29 16:35:12,780 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21485 from 127.0.0.1:54494
+2010-08-29 16:35:12,780 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:12,781 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21485 from 127.0.0.1:54494
+2010-08-29 16:35:12,781 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21485 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:15,781 DEBUG org.apache.hadoop.ipc.Server:  got #21486
+2010-08-29 16:35:15,782 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21486 from 127.0.0.1:54494
+2010-08-29 16:35:15,782 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:15,782 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21486 from 127.0.0.1:54494
+2010-08-29 16:35:15,783 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21486 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:18,782 DEBUG org.apache.hadoop.ipc.Server:  got #21487
+2010-08-29 16:35:18,782 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21487 from 127.0.0.1:54494
+2010-08-29 16:35:18,783 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:35:18,783 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21487 from 127.0.0.1:54494
+2010-08-29 16:35:18,783 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21487 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:21,782 DEBUG org.apache.hadoop.ipc.Server:  got #21488
+2010-08-29 16:35:21,783 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21488 from 127.0.0.1:54494
+2010-08-29 16:35:21,783 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:21,784 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21488 from 127.0.0.1:54494
+2010-08-29 16:35:21,784 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21488 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:24,783 DEBUG org.apache.hadoop.ipc.Server:  got #21489
+2010-08-29 16:35:24,784 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21489 from 127.0.0.1:54494
+2010-08-29 16:35:24,784 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:24,785 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21489 from 127.0.0.1:54494
+2010-08-29 16:35:24,785 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21489 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:27,784 DEBUG org.apache.hadoop.ipc.Server:  got #21490
+2010-08-29 16:35:27,785 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21490 from 127.0.0.1:54494
+2010-08-29 16:35:27,786 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:35:27,786 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21490 from 127.0.0.1:54494
+2010-08-29 16:35:27,786 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21490 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:30,786 DEBUG org.apache.hadoop.ipc.Server:  got #21491
+2010-08-29 16:35:30,786 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21491 from 127.0.0.1:54494
+2010-08-29 16:35:30,787 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:35:30,787 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21491 from 127.0.0.1:54494
+2010-08-29 16:35:30,787 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21491 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:33,786 DEBUG org.apache.hadoop.ipc.Server:  got #21492
+2010-08-29 16:35:33,787 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21492 from 127.0.0.1:54494
+2010-08-29 16:35:33,788 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:35:33,788 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21492 from 127.0.0.1:54494
+2010-08-29 16:35:33,788 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21492 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:36,787 DEBUG org.apache.hadoop.ipc.Server:  got #21493
+2010-08-29 16:35:36,788 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21493 from 127.0.0.1:54494
+2010-08-29 16:35:36,789 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:36,789 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21493 from 127.0.0.1:54494
+2010-08-29 16:35:36,792 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21493 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:39,788 DEBUG org.apache.hadoop.ipc.Server:  got #21494
+2010-08-29 16:35:39,789 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21494 from 127.0.0.1:54494
+2010-08-29 16:35:39,789 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:39,790 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21494 from 127.0.0.1:54494
+2010-08-29 16:35:39,790 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21494 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:42,790 DEBUG org.apache.hadoop.ipc.Server:  got #21495
+2010-08-29 16:35:42,791 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21495 from 127.0.0.1:54494
+2010-08-29 16:35:42,791 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:42,791 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21495 from 127.0.0.1:54494
+2010-08-29 16:35:42,791 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21495 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:45,791 DEBUG org.apache.hadoop.ipc.Server:  got #21496
+2010-08-29 16:35:45,791 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21496 from 127.0.0.1:54494
+2010-08-29 16:35:45,792 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:35:45,792 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21496 from 127.0.0.1:54494
+2010-08-29 16:35:45,792 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21496 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:48,791 DEBUG org.apache.hadoop.ipc.Server:  got #21497
+2010-08-29 16:35:48,792 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21497 from 127.0.0.1:54494
+2010-08-29 16:35:48,793 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:35:48,793 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21497 from 127.0.0.1:54494
+2010-08-29 16:35:48,793 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21497 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:51,824 DEBUG org.apache.hadoop.ipc.Server:  got #21498
+2010-08-29 16:35:51,825 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21498 from 127.0.0.1:54494
+2010-08-29 16:35:51,825 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:51,826 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21498 from 127.0.0.1:54494
+2010-08-29 16:35:51,826 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21498 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:54,793 DEBUG org.apache.hadoop.ipc.Server:  got #21499
+2010-08-29 16:35:54,796 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21499 from 127.0.0.1:54494
+2010-08-29 16:35:54,796 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:35:54,796 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21499 from 127.0.0.1:54494
+2010-08-29 16:35:54,797 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21499 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:35:57,795 DEBUG org.apache.hadoop.ipc.Server:  got #21500
+2010-08-29 16:35:57,795 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21500 from 127.0.0.1:54494
+2010-08-29 16:35:57,796 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:35:57,796 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21500 from 127.0.0.1:54494
+2010-08-29 16:35:57,796 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21500 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:00,795 DEBUG org.apache.hadoop.ipc.Server:  got #21501
+2010-08-29 16:36:00,796 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21501 from 127.0.0.1:54494
+2010-08-29 16:36:00,796 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:36:00,797 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21501 from 127.0.0.1:54494
+2010-08-29 16:36:00,797 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21501 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:03,797 DEBUG org.apache.hadoop.ipc.Server:  got #21502
+2010-08-29 16:36:03,799 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 2 on 26410: has #21502 from 127.0.0.1:54494
+2010-08-29 16:36:03,800 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:36:03,800 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21502 from 127.0.0.1:54494
+2010-08-29 16:36:03,800 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21502 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:06,798 DEBUG org.apache.hadoop.ipc.Server:  got #21503
+2010-08-29 16:36:06,798 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 1 on 26410: has #21503 from 127.0.0.1:54494
+2010-08-29 16:36:06,799 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:36:06,799 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21503 from 127.0.0.1:54494
+2010-08-29 16:36:06,799 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21503 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:09,798 DEBUG org.apache.hadoop.ipc.Server:  got #21504
+2010-08-29 16:36:09,799 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 0 on 26410: has #21504 from 127.0.0.1:54494
+2010-08-29 16:36:09,799 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:36:09,800 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21504 from 127.0.0.1:54494
+2010-08-29 16:36:09,800 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21504 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:12,800 DEBUG org.apache.hadoop.ipc.Server:  got #21505
+2010-08-29 16:36:12,800 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 9 on 26410: has #21505 from 127.0.0.1:54494
+2010-08-29 16:36:12,801 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:36:12,801 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21505 from 127.0.0.1:54494
+2010-08-29 16:36:12,801 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21505 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:15,800 DEBUG org.apache.hadoop.ipc.Server:  got #21506
+2010-08-29 16:36:15,802 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 8 on 26410: has #21506 from 127.0.0.1:54494
+2010-08-29 16:36:15,802 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:36:15,802 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21506 from 127.0.0.1:54494
+2010-08-29 16:36:15,802 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21506 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:18,801 DEBUG org.apache.hadoop.ipc.Server:  got #21507
+2010-08-29 16:36:18,802 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 7 on 26410: has #21507 from 127.0.0.1:54494
+2010-08-29 16:36:18,802 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:36:18,803 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21507 from 127.0.0.1:54494
+2010-08-29 16:36:18,803 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21507 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:21,803 DEBUG org.apache.hadoop.ipc.Server:  got #21508
+2010-08-29 16:36:21,905 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 6 on 26410: has #21508 from 127.0.0.1:54494
+2010-08-29 16:36:21,905 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:36:21,905 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21508 from 127.0.0.1:54494
+2010-08-29 16:36:21,905 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21508 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:24,804 DEBUG org.apache.hadoop.ipc.Server:  got #21509
+2010-08-29 16:36:24,804 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 5 on 26410: has #21509 from 127.0.0.1:54494
+2010-08-29 16:36:24,805 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 1
+2010-08-29 16:36:24,805 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21509 from 127.0.0.1:54494
+2010-08-29 16:36:24,805 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21509 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:27,804 DEBUG org.apache.hadoop.ipc.Server:  got #21510
+2010-08-29 16:36:27,805 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 4 on 26410: has #21510 from 127.0.0.1:54494
+2010-08-29 16:36:27,805 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 0 procesingTime= 0
+2010-08-29 16:36:27,805 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21510 from 127.0.0.1:54494
+2010-08-29 16:36:27,806 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21510 from 127.0.0.1:54494 Wrote 148 bytes.
+2010-08-29 16:36:30,811 DEBUG org.apache.hadoop.ipc.Server:  got #21511
+2010-08-29 16:36:30,812 DEBUG org.apache.hadoop.ipc.Server: IPC Server handler 3 on 26410: has #21511 from 127.0.0.1:54494
+2010-08-29 16:36:30,812 DEBUG org.apache.hadoop.ipc.Server: Served: sendHeartbeat queueTime= 1 procesingTime= 0
+2010-08-29 16:36:30,812 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21511 from 127.0.0.1:54494
+2010-08-29 16:36:30,812 DEBUG org.apache.hadoop.ipc.Server: IPC Server Responder: responding to #21511 from 127.0.0.1:54494 Wrote 148 bytes.
